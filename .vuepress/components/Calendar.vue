@@ -9,7 +9,7 @@
   <div ref="wrapper">
     <HeroInternalPage
       title="Calendar"
-      link="https://github.com/cesalazar/berlinblockchainweek/issues/new"
+      link="https://goo.gl/forms/uJQ8eAWEHV2kLkMv2"
       linkText="Submit an Event"
     />
 
@@ -42,7 +42,7 @@
           <!-- Each day column -->
           <td v-for="d in firstDay + 6" v-if="d >= firstDay">
             <div v-for="event in checkEvents(d, t)" v-if="event">
-              <a :href="$withBase(event.path)">{{ event.name }}</a>
+              <a :class="{ 'featured' : event.featured }" :href="$withBase(event.path)">{{ event.name }}</a>
             </div>
           </td>
         </tr>
@@ -129,6 +129,7 @@ export default {
           for (i; i < duration; i++) {
             this.events.push({
               path: path,
+              featured: fm.featured,
               name: fm.name,
               time: fm.time,
               day: day + i,
@@ -292,6 +293,8 @@ table
           font-weight 400
           font-family Montserrat
           transition .3s ease-in-out
+          &.featured
+            color: $accentColor
         &:last-child
           border-right $thinBorder
         &.hour

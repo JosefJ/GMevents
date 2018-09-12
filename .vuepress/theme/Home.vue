@@ -16,7 +16,7 @@
     </div>
     <div class="home_about">
       <div class="home-wrap">
-        <h2 class="home_about-title"><b>About</b> Berlin Blockchain Week</h2>
+        <h2 class="home_about-title"><b>About</b> Prague Blockchain Week</h2>
         <Content custom/>
       </div>
     </div>
@@ -24,7 +24,7 @@
       <div class="home-wrap">
         <div class="features" v-if="data.features && data.features.length">
           <div class="title">
-            <h2><b>Venues</b> of Berlin Blockchain Week </h2>
+            <h2><b>Venues</b> of Prague Blockchain Week </h2>
           </div>
           <div class="feature" v-for="feature in data.features">
             <h2>{{ feature.title }}</h2>
@@ -78,9 +78,9 @@ export default {
     margin 0px auto
   &_main
     background url('~/main-bg.jpg')
-    background-attachment fixed
+    // background-attachment fixed
     background-size cover
-    background-position left bottom
+    background-position center bottom
     background-repeat no-repeat
     color #fff
     padding 200px 0
@@ -100,17 +100,30 @@ export default {
       border-bottom none
       margin 0 0 38px 0
   &_features
-    background url('~/features-bg.jpg')
+    position: relative
+    background url('~/main-bg.jpg')
     background-attachment fixed
     background-size cover
-    background-position left top
+    background-position center bottom
     background-repeat no-repeat
     color #fff
+    &:before
+      content: ''
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      background-color: rgba(#000,.4)
     .home-wrap
+      position: relative
+      z-index: 2
       padding 80px 1.5rem 55px
   .hero
     background none
     text-align center
+    &:before
+        display: none
     img
       max-height 280px
       display block
@@ -194,7 +207,7 @@ export default {
       box-sizing border-box
       font-size 18px
       &:hover
-        border 1px solid $accentColor 
+        border 1px solid $accentColor
       a
         color #fff
 
@@ -232,7 +245,7 @@ export default {
         font-size 2rem
         margin  0 1.2rem 2rem
       .description, .action
-        margin 0.2rem auto 0.8rem 
+        margin 0.2rem auto 0.8rem
       .description
         font-size 1.2rem
       .action-button
@@ -247,7 +260,7 @@ export default {
         order: 1
         margin: 20px 0 0 0
         font-size: 12px
-        
+
 </style>
 
 

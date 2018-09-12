@@ -1,11 +1,11 @@
-# Berlin Blockchain Week - Live Website
+# Prague Blockchain Week - Live Website
 
-This branch is the live website of the Berlin Blockchain Week, which is
-reachable at [blockchainweek.berlin](https://blockchainweek.berlin). *Do not*
+This branch is the live website of the Prague Blockchain Week, which is
+reachable at [pragueblockchainweek.cz](https://pragueblockchainweek.cz). *Do not*
 try to edit the content on this branch, or you're going to have a bad time.
 
 The source code for this page is on the
-[master](https://github.com/cesalazar/berlinblockchainweek/tree/master) branch.
+[master](https://github.com/JosefJ/PragueBlockchainWeek/tree/master) branch.
 Do your modifications on that branch.
 
 ## Contributing

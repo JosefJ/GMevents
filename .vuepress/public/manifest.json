@@ -1,6 +1,6 @@
 {
-  "name": "Berlin Blockchain Week",
-  "short_name": "BERBlockWeek",
+  "name": "Prague Blockchain Week",
+  "short_name": "Prague Blockchain Week",
   "icons": [
     {
       "src": "/logo-192x192.png",
@@ -16,5 +16,5 @@
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#F1003E"
+  "theme_color": "#41BBD9"
 }

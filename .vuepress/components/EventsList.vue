@@ -8,7 +8,7 @@
   <div class="events--container">
     <HeroInternalPage
       title="Events"
-      link="https://github.com/cesalazar/berlinblockchainweek/issues/new"
+      link="https://goo.gl/forms/uJQ8eAWEHV2kLkMv2"
       linkText="Submit an Event"
     />
     <div class="filters">
@@ -18,6 +18,14 @@
             checked @click="filterEvents('All')"
           />
           <span>All</span>
+        </label>
+      </div>
+      <div>
+        <label>
+          <input class="hidden-radio" name="category" type="radio" value="Top"
+            @click="filterEvents('', true)"
+          />
+          <span>TOP</span>
         </label>
       </div>
       <div v-for="category in categories">
@@ -62,6 +70,7 @@
             :endTime="event.frontmatter.endTime"
           >
           <Badge slot="after" :text="event.frontmatter.category"/>
+          <Badge v-if="event.frontmatter.featured" slot="after" :text="'TOP'"/>
           </DateTime>
         </div>
       </div>
@@ -115,15 +124,21 @@ export default {
         })
       }
     },
-    filterEvents (category) {
+    filterEvents (category, featured) {
       this.animateContent()
       // Wait for the animation hiding the content to finish
       setTimeout(() => {
         this.setEvents()
         if (category !== 'All') {
-          this.events = this.events.filter(event => {
-            return event.frontmatter.category === category
-          })
+          if (featured) {
+            this.events = this.events.filter(event => {
+              return (event.frontmatter.category === category || category == '') && event.frontmatter.featured === true
+            })
+          } else {
+            this.events = this.events.filter(event => {
+              return event.frontmatter.category === category
+            })
+          }
         }
         this.days = []
         this.setDays()

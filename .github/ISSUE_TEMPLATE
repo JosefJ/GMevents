@@ -70,21 +70,20 @@ endTime: '22:00'
 tickets: https://eventbrite.com/my-event
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
-# _Don't_ write the currency symbol (Euro symbol will be used).
+# _Don't_ write the currency symbol (Kč symbol will be used).
 price: 5
 
 # The name of the venue where the event will be held. Can be left empty.
 venue: FULL NODE
 
 # The address to link to a Google map. Please test the address on Google Maps.
-# Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
-address: Skalitzer Strasse 85-86, 10997 Berlin, Germany
+# Example: 5. května 1640/65, 140 21 Praha 4
+address: 5. května 1640/65, 140 21 Praha 4
 
 # The category of the event. Valid options:
 # - conference
 # - event
 # - hackathon
-# - panel
 # - workshop
 # Use _only_ one, and don't capitalize.
 category: event

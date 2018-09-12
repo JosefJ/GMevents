@@ -7,7 +7,7 @@
 <template>
   <div class="hero">
     <h1>{{ title }}</h1>
-    <a class="action-button" 
+    <a class="action-button"
        :href="link"
        target="_blank"
        rel="noopener noreferrer"
@@ -33,9 +33,9 @@ export default {
   min-height $internalHeroHeight
   position relative
   background url("~/main-bg.jpg")
-  background-attachment fixed
+  // background-attachment fixed
   background-size cover
-  background-position left top
+  background-position center 90%
   background-repeat no-repeat
   display flex
   flex-direction column
@@ -44,13 +44,24 @@ export default {
   z-index 1
   padding 1.5em 0
   box-sizing border-box
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(#000,.4)
   h1
+    position: relative
+    z-index: 2
     margin 0
     padding 0
     font-size 48px
     max-width $contentWidth
     padding 0 1.5rem
   .action-button
+    z-index: 2
     margin -2em 0 0
     font-size 18px
     color #fff

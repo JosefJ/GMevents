@@ -101,6 +101,8 @@ address: Skalitzer Strasse 85-86, 10997 Berlin, Germany
 # Use _only_ one, and don't capitalize.
 category: event
 
+featured: true
+
 
 #################
 ### SPEAKERS ####

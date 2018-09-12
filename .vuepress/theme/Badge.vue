@@ -14,7 +14,7 @@ export default {
   },
   render (h, { props, slots }) {
     return h('span', {
-      class: ['badge', props.type, props.vertical]
+      class: ['badge', 'badge--' + props.text.toLowerCase(), props.type, props.vertical]
     }, props.text || slots().default)
   }
 }
@@ -22,6 +22,7 @@ export default {
 
 <style lang="stylus">
 @import '../../default-theme/styles/config.styl'
+
 .badge
   display inline-block
   font-size 14px

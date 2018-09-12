@@ -33,7 +33,7 @@ export default {
       if (!price || price === 0) {
         return 'Free'
       }
-      price += ' €'
+      price += ' Kč'
       return price
     }
   }
