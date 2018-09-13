@@ -12,54 +12,46 @@ description: Prauge Blockchain Week is a community-organized initiative. We
 tagline: 24. October - 4. November 2018
 
 features:
-- title: Full Node
-  details: Berlin’s Blockchain hub. With over 20 blockchain startups, Full
-    Node aims to provide the community with room for education, experimentation,
-    innovation, R&D, and the foreground needed for greater diversity in the
-    community.
+- title: Prague Congress Center
+  details: Large neofunctionalist building built in 1981 which is 
+    currently the largest congress center venue in Czech Republic.
 
-- title: Factory
-  details: Berlin’s most popular startup campus that connects founders with
-    mature high tech companies. Companies cooperate as business incubators and
-    advisors for visionary founders offering an “organic acceleration" for
-    emerging startups.
+- title: Paralelni Polis
+  details: TBD
 
-- title: The Family
-  details: The Family is an inclusive investment company that unites
-    entrepreneurs across Europe in Paris, London and Berlin in a singular
-    platform with the aim to build a diverse, dynamic and open startup
-    continent.
+- title: National House
+  details: TBD
 
-- title: Energy Web DevHub
-  details: The Energy Web is an open-source, scalable blockchain platform
-    specifically designed for free public access to encourage dApp development
-    and adoption. The Berlin DevHub focuses on accelerating blockchain
-    technology across the energy sector.
+- title: Node 5
+  details: TBD
 
-- title: Oscoin Office
-  details: Backed by Blue Yard capital, oscoin aims to build a decentralized
-    network between open source software and developers that would allow for a
-    fair economy for the development and maintenance of the world’s open source
-    software, independent of gatekeepers.
+- title: Vnitroblock
+  details: TBD
 
-- title: Co.up
-  details: 'Co.up is a community event space located in the heart of Berlin
-    Kreuzberg which provides event and workshop spaces for the Berlin tech and
-    creative community.'
+- title: Rockaway Capital HQ
+  details: TBD
 
-- title: rent24/Black Unicorn
-  details: As one of the leading coworking and coliving providers, rent24 offers
-    their members not only workspaces and accommodation, but also lounge areas,
-    meeting rooms and event space. rent24's mission is to provide inspirational
-    environments that promote both creativity and productivity, and encourage
-    their community to share.
+- title: Kararna Karlin
+  details: TBD
 
-- title: Ocean Protocol Office
-  details: Ocean Protocol is a decentralized data exchange protocol to unlock
-    data for AI. Ocean Protocol aims to unlock data, for more equitable outcomes
-    for users of data, using a thoughtful application of both technology and
-    governance.
+- title: Cafe NOD / Roxy
+  details: TBD
+  
+- title: Ackee HQ
+  details: TBD
+  
+- title: Opero
+  details: TBD
 
+- title: Altenburg 1964
+  details: TBD
+  
+- title: Jazz Dock
+  details: TBD
+  
+- title: Creative Dock HQ
+  details: TBD
+  
 footer:
   -
     url: /legal/privacy-policy/

@@ -2,18 +2,7 @@
 ####################
 ### INSTRUCTIONS ###
 ####################
-# This file is a template to create new events. In order to use it, duplicate
-# the whole folder (/template) as a new folder (I.E. /my-event-name) inside of
-# the /events folder, using for the folder name _only_:
-# - lowercase letters
-# - hyphens/dashes (-) instead of spaces
-# - alphanumeric characters ('a' to 'z', '0' to '9')
-# and edit the README.md file inside that new folder just created.
-#
-# The name of the folder will be used on the URL. Example:
-# https://blockchainweek.berlin/my-event-name
-#
-# _Don't_ rename the new file (README.md), only edit its content.
+# This file is a template to create new events.
 # _Don't_ remove any text before the colons at the beginning of each line,
 # only edit what is after the colon. Example:
 # Don't remove the word nor colon on 'description:'
@@ -28,13 +17,16 @@
 ###########
 # The title of the page, displayed by the browser on the title of the window.
 # Ideally this is the same as the name of the event.
-title: Sample Template
+title: 'Ethereum Devcon 4'
 
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: This is a talk about blockchain. This field is indexed by search
-  engines and used to show a description on /events.
+description: When it comes to financial inclusion, major challenges include
+  poor financial and digital literacy as well as the lack of identification
+  documents. However, DLT can also be leveraged to restructure control over
+  personal data, such as identification and empower users to participate in
+  financial markets.
 
 
 #####################
@@ -42,7 +34,7 @@ description: This is a talk about blockchain. This field is indexed by search
 #####################
 # The name of the event you're creating.
 # Ideally this is the same as the title.
-name: Sample Template
+name: 'Ethereum Devcon 4'
 
 # There _needs_ to be one hyphen before each paragraph.
 # Linebreaks are ignored, but they _must_ start with two spaces.
@@ -51,41 +43,51 @@ name: Sample Template
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   -
-    Short synopsis of the event goes here. This is the first paragraph.
+    What is Devcon all about?
+     Devcon is our annual Ethereum family reunion. We at the Ethereum Foundation 
+     host Devcon to educate and empower our community to build decentralized 
+     applications, and to bring Ethereum protocols, tools, and culture to the world.
+    
   -
-    Dolor officiis aliquam eligendi adipisci debitis. Accusamus quis ratione
-      perferendis esse nam. Vero itaque quidem molestias id quo? Deleniti ipsum
-      nobis magni illum quos architecto omnis Modi reprehenderit inventore!
+    Who is Devcon for?    
+     The name Devcon refers to a developer conference. While the majority of the 
+     programming & content will be deeply technical, we think of developers as 
+     builders of all kinds - designers, UX researchers, smart contract devs, 
+     blockchain researchers, client implementers, test engineers, infrastructure 
+     operators, community organizers, and even artists in the community.
   -
-    This is the third paragraph. Add more as needed...
+    Who is Devcon not for?
+     Devcon is not a place for sharing or listening to investment promotions. 
+     Participants focused on the financial value of ETH or other investments 
+     will detract from the intended experience.
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
-date: 2018-09-05
+date: 2018-10-30
 # The date when the event ends. Can be left empty or set to the same day the
 # event starts.
-endDate: 2018-09-05
+endDate: 2018-11-02
 
 # Set the time in 24 hours format, surrounded by quotes.
 # _Only_ the starting time!
 # Example: '18:00'
-time: '20:00'
+time: '12:00'
 # Time when the event ends. Can be left empty.
-endTime: '22:00'
+endTime: '18:00'
 
-# The URL where to akquire the tickets. Can be left empty.
-tickets: https://eventbrite.com/my-event
+# The URL where to acquire the tickets. Can be left empty.
+tickets: https://devcon.ethereum.org
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (Euro symbol will be used).
-price: 5
+price: 1025
 
 # The name of the venue where the event will be held. Can be left empty.
-venue: FULL NODE
+venue: Prague Congress Center
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
-address: Skalitzer Strasse 85-86, 10997 Berlin, Germany
+address: 5. května 1640/65, 140 21 Praha 4, Czech Rep.
 
 # The category of the event. Valid options:
 # - conference
@@ -106,48 +108,31 @@ category: event
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove speakers as needed, but remember the hyphen before each entry.
 speakers:
-  -
+  #-
     # Required.
-    name: Carlos E. Salazar
-
+    # name: 
     # Can be left empty.
-    title: Lead Front-end Developer
-
+    # title: 
     # Can be left empty.
-    company: Least Authority
-
+    # company: 
     # The full URL, including http(s)://. Can be left empty.
-    companyURL: https://leastauthority.com
-
+    # companyURL:
     # Just the twitter handle, without Twitter's URL, nor the '@' symbol.
     # Can be left empty.
-    twitter: cesalazar
-
+    # twitter:
     # The full URL, including http(s)://. Can be left empty.
-    website: https://cesalazar.com
-
+    # website:
     # The bio is a single line.
     # Linebreaks are ignored, but they _must_ start with two spaces.
-    bio: Here goes Carlos' description. Amet corporis laudantium obcaecati
-      perferendis reiciendis rem perferendis. Magni qui reiciendis explicabo.
+    # bio: 
   -
-    name: Vitalik Buterin
-    title: Co-founder
-    company: Ethereum
-    companyURL: https://ethereum.org/
-    twitter: VitalikButerin
-    website: https://vitalik.ca
-    bio: Vitalik Buterin is a Russian-Canadian programmer and writer primarily
-      known as a co-founder of Ethereum and as a co-founder of Bitcoin Magazine.
-  -
-    name: Kathleen Breitman
-    title: CEO
-    company: Tezos
-    companyURL: https://tezos.com/
-    twitter: breitwoman
-    website: http://kathleenbreitman.com
-    bio: Co-founder at Tezos, a fresh implementation of a blockchain which can
-      amend its protocol.
+    name: Awesome on
+    title: Title
+    company: Company
+    companyURL:
+    twitter:
+    website:
+    bio:
 
 ### DON'T MAKE CHANGES BELOW THIS LINE! ###
 ---
