@@ -8,7 +8,7 @@
   <div class="events--container">
     <HeroInternalPage
       title="Events"
-      link="https://goo.gl/forms/uJQ8eAWEHV2kLkMv2"
+      link="https://goo.gl/forms/zYvjmpEsfeM1KpRt2"
       linkText="Submit an Event"
     />
     <div class="filters">

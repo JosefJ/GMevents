@@ -125,14 +125,14 @@ speakers:
     # The bio is a single line.
     # Linebreaks are ignored, but they _must_ start with two spaces.
     # bio: 
-  -
-    name: Awesome on
-    title: Title
-    company: Company
-    companyURL:
-    twitter:
-    website:
-    bio:
+  #-
+  #  name: Awesome on
+  #  title: Title
+  #  company: Company
+  #  companyURL:
+  #  twitter:
+  #  website:
+  #  bio:
 
 ### DON'T MAKE CHANGES BELOW THIS LINE! ###
 ---

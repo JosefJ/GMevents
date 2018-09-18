@@ -3,11 +3,12 @@ home: true
 actionText: View the Events →
 actionLink: /events/
 
-description: Prauge Blockchain Week is a community-organized initiative. We
-  have no single owner. It is an agnostic movement based on the premise that
-  self-organization is the backbone of the ecosystem. We invite projects,
-  individuals and anyone interested in fruitful and educational discussions to
-  join us.
+description: Blockchain Week initiatives are happening all over the world whenever 
+             there is a large gathering of blockchain and cryptocurrencies enthusiasts 
+             around. The Prague Blockchain Week is no different. This is an voluntary 
+             initiative which was formed around the Ethereum Devcon 4 and which will 
+             provide an overview and support for all the blockchain technology related
+             events happening in Prague between Oct 24. and Nov 4. 2018. 
 
 tagline: 24. October - 4. November 2018
 
