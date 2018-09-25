@@ -70,7 +70,7 @@ endTime: '22:00'
 tickets: https://eventbrite.com/my-event
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
-# _Don't_ write the currency symbol (Kč symbol will be used).
+# _Don't_ write the currency symbol (EUR symbol will be used).
 price: 5
 
 # The name of the venue where the event will be held. Can be left empty.
