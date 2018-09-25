@@ -104,7 +104,6 @@ export default {
           event.frontmatter.category = category
           this.setFilter(category)
           event.day = setEventDay(event.frontmatter.date)
-          console.log(event.frontmatter.name + ' ' + event.frontmatter.date )
           return event
         }
       })
@@ -159,7 +158,6 @@ export default {
       for (let i = 0; i < this.duration; i++) {
         nextDay = addDays(this.firstDay, i)
         nextDay = nextDay.toJSON()
-        console.log(nextDay)
         this.days.push(nextDay)
         this.removeEmptyDay(nextDay)
       }
