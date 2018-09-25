@@ -36,11 +36,11 @@
         <tr>
           <!-- Hour column -->
           <td class="hour">
-            <span>{{ t < 10 ? '0' + t : t }}:00</span>
+            <span>{{ t < dayNames.length - 1 ? '0' + t : t }}:00</span>
           </td>
 
           <!-- Each day column -->
-          <td v-for="d in firstDay + 10" v-if="d >= firstDay">
+          <td v-for="d in firstDay + dayNames.length - 1" v-if="d >= firstDay">
             <div v-for="event in checkEvents(d, t)" v-if="event">
               <a :class="{ 'featured' : event.featured }" :href="$withBase(event.path)">{{ event.name }}</a>
             </div>
@@ -58,6 +58,8 @@ export default {
   data: () => ({
     // First calendar day of the event (October 24)
     firstDay: 24,
+    firstMonth: 9,
+    daysInFirstMonth: 31,
     // Hours without the leading zero nor trailing minutes
     firstHour: 8,
     lastHour: 22,
@@ -93,7 +95,13 @@ export default {
   methods: {
     checkEvents (day, hour) {
       return this.events.map(event => {
-        if (event.day === day && event.hour === hour) {
+        var xxx = day;
+        var month = this.firstMonth;
+        if(xxx > this.daysInFirstMonth){
+            xxx = xxx - this.daysInFirstMonth;
+            month++;
+        }
+        if (event.day === xxx && event.month === month && event.hour === hour) {
           return event
         }
       })
@@ -108,6 +116,10 @@ export default {
           longName: dayName
         })
 
+        if(dayNumber == this.daysInFirstMonth){
+            dayNumber = 0;
+        }
+
         dayNumber++
       })
     },
@@ -121,14 +133,18 @@ export default {
 
         if (fm.name && fm.time && fm.name !== 'Sample Template') {
           let day = new Date(fm.date).getUTCDate()
+          let month = new Date(fm.date).getUTCMonth()
           let hour = Number(fm.time.split(':')[0])
           let duration = 1
           let i = 0
 
           // When the event spans more than one day
           if (fm.endDate && fm.endDate !== fm.date) {
-            let endDay = new Date(fm.endDate).getUTCDate()
-            duration = (endDay - day) + 1
+            var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
+            let startDay = new Date(fm.date);
+            let endDay = new Date(fm.endDate);
+
+            var duration = Math.round(Math.abs((startDay.getTime() - endDay.getTime())/(oneDay))) + 1;
           }
 
           for (i; i < duration; i++) {
@@ -137,7 +153,8 @@ export default {
               featured: fm.featured,
               name: fm.name,
               time: fm.time,
-              day: day + i,
+              day: day + i > this.daysInFirstMonth ? day + i - this.daysInFirstMonth : day + i,
+              month: day + i > this.daysInFirstMonth ? month + 1 : month,
               hour
             })
           }

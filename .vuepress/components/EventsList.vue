@@ -52,7 +52,7 @@
           </DateTime>
         </h3>
 
-        <div v-for="event in events" v-if="day === event.frontmatter.date"
+        <div v-for="event in events" v-if="day.toString().replace('T01', 'T00') === event.frontmatter.date.toString()"
           :key="event.key"
         >
           <!-- Event's name -->
@@ -85,8 +85,8 @@ import { capitalizeWord } from './../theme/util.js'
 export default {
   components: { DateTime },
   data: () => ({
-    firstDay: new Date('2018-09-05'),
-    duration: 7,
+    firstDay: new Date('2018-10-24'),
+    duration: 12,
     descending: false,
     categories: [],
     events: [],
@@ -104,6 +104,7 @@ export default {
           event.frontmatter.category = category
           this.setFilter(category)
           event.day = setEventDay(event.frontmatter.date)
+          console.log(event.frontmatter.name + ' ' + event.frontmatter.date )
           return event
         }
       })
@@ -158,6 +159,7 @@ export default {
       for (let i = 0; i < this.duration; i++) {
         nextDay = addDays(this.firstDay, i)
         nextDay = nextDay.toJSON()
+        console.log(nextDay)
         this.days.push(nextDay)
         this.removeEmptyDay(nextDay)
       }
@@ -166,7 +168,7 @@ export default {
     removeEmptyDay (day) {
       let count = 0
       this.events.map(event => {
-        if (day === event.frontmatter.date) count++
+        if (day.toString().replace('T01', 'T00') === event.frontmatter.date.toString()) count++
       })
       if (count === 0) this.days.splice(-1, 1)
     },
