@@ -33,9 +33,9 @@ title: Enterprise Ethereum Hackathon
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: As part of our effort to build the EntEth ecosystem, we are hosting a hackathon focused on a few key areas:
- security, performance, privacy/permissioning. We'll be  focusing on getting enterprise devs working together and 
- hosting a few prizes in key categories. 
+description: As part of our effort to build the EntEth ecosystem, we are hosting a hackathon focused on a few key areas 
+  of security, performance, privacy/permissioning. We'll be  focusing on getting enterprise devs working together and 
+  hosting a few prizes in key categories. 
 
 
 #####################
