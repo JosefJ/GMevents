@@ -96,7 +96,7 @@ address: 5. května 1640/65, 140 21 Praha 4, Czech Rep.
 # - panel
 # - workshop
 # Use _only_ one, and don't capitalize.
-category: event
+category: conference
 
 
 #################
