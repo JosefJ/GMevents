@@ -44,35 +44,35 @@ name: 'iExec Summit & Party'
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   -
-    We are entering the era of decentralization and this will profoundly change 
-    the foundations of the Internet. Public blockchains such as Ethereum become 
-    the central coordinating element of decentralized applications. Smart contract 
-    programming allows the exchange of value and data, solves identification and authorization
-    problems and brings out new algorithms for consensus and economic incentives. 
-    Nevertheless we are still far from the promise of a “global computer”.
-  -  
-    This first workshop organized by iExec in conjunction with the DevCon IV 
-    conference aims to bring together the actors for whom infrastructure is a 
-    major subject. The summit gathers Dapps developers, miners, and decentralized 
-    protocol designers from the academy, startups, industry as well as blockchain 
-    hackers. The objective of the workshop is to exchange and compare our experiences 
-    on the implementation and efficient use of these emerging blockchain-based 
-    decentralized infrastructures.
+    The iExec team invite you to join us for a whole afternoon and evening of free blockchain and tech themed workshops, 
+    talks, discussions; food, drink and parties! 
+  -   
+    Which computing infrastructure for a decentralized world?
   - 
-    A high-level program of reputable speakers from the field will address topics 
-    such as scalability, security, performance, protocol design and evaluation, 
-    and many more. A particular focus on iExec will allow everyone to get a hand 
-    on the technology in a simple and didactic way. In addition, several sessions 
-    will be dedicated to real life applications. The workshop is free and open to 
-    the general public who will be able to train and learn about the state-of-the-art 
-    technologies around the Ethereum blockchain.
+    As we enter the era of decentralization, we will see profound changes in the foundations of the Internet itself. 
+    Public blockchains such as Ethereum become the central element of decentralized applications. Smart contract 
+    programming allows for the exchange of value and data, solves identification and authorization problems and brings 
+    out new algorithms for consensus and economic incentives. Nevertheless we are still far from the promise of a 
+    “global computer”.
+  -  
+    In coordination with Devcon4 conference, the first iExec workshop aims to bring together those for whom 
+    infrastructure and evolution of the internet is an important subject. The summit will be attended by Dapp 
+    developers, miners, blockchain hackers decentralized protocol designers from startups, industry, academic 
+    backgrounds.
+  - 
+    The objective of the workshop is to exchange experiences on the implementation of these emerging blockchain-based 
+    decentralized infrastructures. A high-level program of reputable speakers from the field will address topics such 
+    as scalability, security, performance, protocol design and evaluation, and many more. A particular focus on iExec 
+    will allow everyone to get hands-on with the technology in a simple and informative way. In addition, several 
+    sessions will be dedicated to executing real life applications. The workshop is free and open to the general public.
+    Anyone interested in learning more about using state-of-the-art technologies around the Ethereum blockchain is welcome.
     
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
-date: 2018-11-03
+date: 2018-11-02
 # The date when the event ends. Can be left empty or set to the same day the
 # event starts.
-endDate: 2018-11-03
+endDate: 
 
 # Set the time in 24 hours format, surrounded by quotes.
 # _Only_ the starting time!
