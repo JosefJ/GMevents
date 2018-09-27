@@ -93,7 +93,7 @@ address: TBD
 # - workshop
 # - party
 # Use _only_ one, and don't capitalize.
-category: event
+category: party
 
 
 #################
