@@ -33,7 +33,7 @@
           <input class="hidden-radio" name="category" type="radio"
             :value="category" @click="filterEvents(category)"
           />
-          <span>{{ category }}s</span>
+          <span>{{ category }}</span>
         </label>
       </div>
       <div>
