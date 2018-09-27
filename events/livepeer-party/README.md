@@ -1,4 +1,3 @@
-
 ---
 ####################
 ### INSTRUCTIONS ###
@@ -23,8 +22,7 @@ title: Halloween DEVilJam at Paralelni Polis
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: This is a talk about blockchain. This field is indexed by search
-  engines and used to show a description on /events. Halloween Hangout and Jam Session for all musician devs at DEVCON4
+description: Halloween Hangout and Jam Session for all musician devs at DEVCON4
 
 
 #####################
@@ -42,12 +40,12 @@ name: Halloween DEVilJam at Paralelni Polis
 synopsis:
   -
     There are many talented musicians among developers, and DEVCON4 will make 
-    no exception. My idea is to organise a Halloween party / DEVil Jam at Paralelni, where 
+    no exception. My idea is to organise a Halloween party - DEVil Jam at Paralelni, where 
     everyone can have a good time and those musicians can hack together some nice
     grooves.
   -
     I am a sound tech and musician myself and I can take of all the technical part related to the stage
-    backline and sounds. I believe Paralelni Cafeteria would possibly be the best location to host it.
+    backline and sounds. I believe Paralelni Polis - Bitcoin Coffee would possibly be the best location to host it.
   -
     The whole eve can be livestreamed on Livepeer.tv using Livepeer decentralized video streaming 
     protocol.
@@ -57,7 +55,7 @@ synopsis:
 date: 2018-10-31
 # The date when the event ends. Can be left empty or set to the same day the
 # event starts.
-endDate: 2018-11-01
+endDate: 
 
 # Set the time in 24 hours format, surrounded by quotes.
 # _Only_ the starting time!
@@ -67,14 +65,14 @@ time: '20:00'
 endTime: '01:00'
 
 # The URL where to akquire the tickets. Can be left empty.
-url: 
+tickets: 
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (EUR symbol will be used).
 price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
-venue: PARALELNI POLIS CAFETERIA
+venue: Paralelni Polis
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: 5. května 1640/65, 140 21 Praha 4
@@ -89,7 +87,15 @@ address: Dělnická 43 Praha 7, 170 00 Praha 7
 # Use _only_ one, and don't capitalize.
 category: party
 
-
+#################
+### SPEAKERS ####
+#################
+# There _needs_ to be one hyphen before each entry.
+# Linebreaks are ignored, but they _must_ start with two spaces.
+# Indentation is crucial:
+# Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
+# Add or remove speakers as needed, but remember the hyphen before each entry.
+speakers:
 
 ### DON'T MAKE CHANGES BELOW THIS LINE! ###
 ---
