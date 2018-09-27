@@ -80,7 +80,7 @@ export default {
     background url('~/main-bg.jpg')
     // background-attachment fixed
     background-size cover
-    background-position center bottom
+    background-position center top
     background-repeat no-repeat
     color #fff
     padding 200px 0
@@ -101,7 +101,7 @@ export default {
       margin 0 0 38px 0
   &_features
     position: relative
-    background url('~/main-bg.jpg')
+    background url('~/secondary-bg.jpg')
     background-attachment fixed
     background-size cover
     background-position center bottom
@@ -119,6 +119,8 @@ export default {
       position: relative
       z-index: 2
       padding 80px 1.5rem 55px
+      background-color #171c19
+      opacity 0.8
   .hero
     background none
     text-align center

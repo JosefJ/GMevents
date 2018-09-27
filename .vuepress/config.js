@@ -22,11 +22,17 @@ module.exports = {
       {
         text: 'Submit an Event',
         link: 'https://goo.gl/forms/zYvjmpEsfeM1KpRt2'
+      },
+      {
+        text: 'Use BlockParty',
+        link: 'https://medium.com/noblocknoparty/how-blockparty-can-decrease-no-shows-at-your-next-event-5e5895f1a23f'
       }
+
     ],
     logo: 'logo.png',
+    search: false,
     // Assumes GitHub. Can also be a full GitLab url.
-    repo: 'JosefJ/PragueBlockchainWeek',
+    // repo: 'JosefJ/PragueBlockchainWeek',
     // Customising the header label
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     // repoLabel: 'Contribute!',

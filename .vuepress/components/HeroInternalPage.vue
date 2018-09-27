@@ -35,7 +35,7 @@ export default {
   background url("~/main-bg.jpg")
   // background-attachment fixed
   background-size cover
-  background-position center 90%
+  background-position center 40%
   background-repeat no-repeat
   display flex
   flex-direction column

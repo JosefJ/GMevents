@@ -93,7 +93,7 @@ address: Namsttí 14. ríjna 82/16, 150 00 Praha-Smichov,
 # - workshop
 # - party
 # Use _only_ one, and don't capitalize.
-category: conference
+category: event
 
 
 #################

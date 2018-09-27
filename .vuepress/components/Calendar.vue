@@ -36,7 +36,7 @@
         <tr>
           <!-- Hour column -->
           <td class="hour">
-            <span>{{ t < dayNames.length - 1 ? '0' + t : t }}:00</span>
+            <span>{{ t < dayNames.length - 1 ? t : t }}:00</span>
           </td>
 
           <!-- Each day column -->
