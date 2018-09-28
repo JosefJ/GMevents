@@ -69,7 +69,7 @@ endDate:
 # Example: '18:00'
 time: '19:00'
 # Time when the event ends. Can be left empty.
-endTime: '22:00'
+endTime: '03:00'
 
 # The URL where to akquire the tickets. Can be left empty.
 tickets: https://www.eventbrite.com/e/xixobit-tickets-50685418451
