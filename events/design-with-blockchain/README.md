@@ -62,19 +62,25 @@ synopsis:
     incubate face the challenges of designing and building around a “trustless” technology?
   -  
     6.30pm Networking
+  -  
     7.00pm Intro by HuiChi Man, Director, Provenance Events - Introduction to speakers & sponsors
+  -  
     7.10pm Nick Salloum, Frontend Engineer, Cryptokitties
+  -  
     7.30pm Jack Leonard, Product Design Lead, Festy
+  -  
     7.50pm Sarah Baker Mills, Design Director, Consensys
+  -  
     8.10pm Q&A
+  -  
     8.30pm Networking & Finish
     
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
-date: 2018-09-05
+date: 2018-10-29
 # The date when the event ends. Can be left empty or set to the same day the
 # event starts.
-endDate: 2018-09-05
+endDate:
 
 # Set the time in 24 hours format, surrounded by quotes.
 # _Only_ the starting time!
