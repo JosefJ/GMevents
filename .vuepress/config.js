@@ -24,7 +24,7 @@ module.exports = {
         link: 'https://goo.gl/forms/zYvjmpEsfeM1KpRt2'
       },
       {
-        text: 'Use BlockParty',
+        text: 'Use Kickback',
         link: 'https://medium.com/noblocknoparty/how-blockparty-can-decrease-no-shows-at-your-next-event-5e5895f1a23f'
       }
 
