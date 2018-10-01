@@ -22,13 +22,7 @@ title: 'iExec Summit & Party'
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: We are entering the era of decentralization and this will profoundly
- change the foundations of the Internet. Public blockchains such as Ethereum become 
- the central coordinating element of decentralized applications. Smart contract 
- programming allows the exchange of value and data, solves identification and 
- authorization problems and brings out new algorithms for consensus and economic 
- incentives. Nevertheless we are still far from the promise of a “global computer”.
-
+description: The iExec team invite you to join us for a whole afternoon and evening of free blockchain and tech themed workshops, talks, discussions; food, drink and parties!
 
 #####################
 ### EVENT DETAILS ###
@@ -44,8 +38,7 @@ name: 'iExec Summit & Party'
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   -
-    The iExec team invite you to join us for a whole afternoon and evening of free blockchain and tech themed workshops, 
-    talks, discussions; food, drink and parties! 
+    The iExec team invite you to join us for a whole afternoon and evening of free blockchain and tech themed workshops, talks, discussions; food, drink and parties!
   -   
     Which computing infrastructure for a decentralized world?
   - 
