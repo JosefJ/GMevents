@@ -33,7 +33,7 @@ title: Diversity & Inclusivity Evening
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: “Open Source, Open Hearts: Inclusivity Mixer” Join us for a social sidechain to the dense technical content around code and protocols. This event will allow Ethereum community members to explore the more diverse human issues which inform our many projects. In place of one-to-many speeches, we’ll have multiple nods of participatory activities around the space, and opportunities to learn more about the foundational global barriers that we aim to tackle in transforming the world with technology.
+description: “Open Source, Open Hearts, Inclusivity Mixer” Join us for a social sidechain to the dense technical content around code and protocols. This event will allow Ethereum community members to explore the more diverse human issues which inform our many projects. In place of one-to-many speeches, we’ll have multiple nods of participatory activities around the space, and opportunities to learn more about the foundational global barriers that we aim to tackle in transforming the world with technology.
 
 
 
