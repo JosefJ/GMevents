@@ -58,7 +58,7 @@ synopsis:
 date: 2018-11-01
 # The date when the event ends. Can be left empty or set to the same day the
 # event starts.
-endDate: 2018
+endDate: 
 
 # Set the time in 24 hours format, surrounded by quotes.
 # _Only_ the starting time!
