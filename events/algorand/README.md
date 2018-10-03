@@ -43,11 +43,15 @@ synopsis:
   -
     Turing Award winner and an MIT professor Silvio Micali will tell you about how Algorand changing the conversation in the blockchain space.
   -
-    Agenda:
-    * 18:30 - 19:30 Walk-in & Networking
-    * 19:30 - 20:15 Algorand Project Presentation + Q&A
-    * 20:15 - 20:30 Algorand Developer Suite of Tools
-    * 20:30 - 22:00 Networking
+    Agenda: 
+  -  
+    18:30 - 19:30 Walk-in & Networking
+  -  
+    19:30 - 20:15 Algorand Project Presentation + Q&A
+  -  
+    20:15 - 20:30 Algorand Developer Suite of Tools
+  -  
+    20:30 - 22:00 Networking
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
