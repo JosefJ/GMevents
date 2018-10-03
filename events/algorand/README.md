@@ -24,7 +24,6 @@ title: Algorand Prague Blockchain Meetup
 # Linebreaks are ignored, but they _must_ start with two spaces.
 description: We invite the Prague blockchain developers community to join us for an evening of networking, drinks and meeting the Algorand team.
 
-
 #####################
 ### EVENT DETAILS ###
 #####################
@@ -39,19 +38,19 @@ name: Algorand Prague Blockchain Meetup
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   -
-    We invite the Prague blockchain developers community to join us for an evening of networking, drinks and meeting the Algorand team to hear about the revolutionary alternative blockchain, developed from the first principles and enabling continuous progress. 
+    We invite the Prague blockchain developers community to join us for an evening of networking, drinks and meeting the Algorand team to hear about the revolutionary alternative blockchain, developed from the first principles and enabling continuous progress.  - 
   -
-    Turing Award winner and an MIT professor Silvio Micali will tell you about how Algorand changing the conversation in the blockchain space.
+    Turing Award winner and an MIT professor Silvio Micali will tell you about how Algorand changing the conversation in the blockchain space.  -
+  -  
+    'Agenda:' 
+  -   
+    list:
+    -  '18:30 - 19:30 Walk-in & Networking'
+    -  '19:30 - 20:15 Algorand Project Presentation + Q&A'
+    -  '20:15 - 20:30 Algorand Developer Suite of Tools'
+    -  '20:30 - 22:00 Networking'
   -
-    Agenda: 
-  -  
-    18:30 - 19:30 Walk-in & Networking
-  -  
-    19:30 - 20:15 Algorand Project Presentation + Q&A
-  -  
-    20:15 - 20:30 Algorand Developer Suite of Tools
-  -  
-    20:30 - 22:00 Networking
+    'Event partner: [Lemniscap](https://lemniscap.com)'
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
@@ -63,7 +62,7 @@ endDate: 2018-11-02
 # Set the time in 24 hours format, surrounded by quotes.
 # _Only_ the starting time!
 # Example: '18:30'
-time: '18:00'
+time: '18:30'
 # Time when the event ends. Can be left empty.
 endTime: '22:00'
 
@@ -79,7 +78,7 @@ venue: Paralelní Polis
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: 5. května 1640/65, 140 21 Praha 4
-address: Dělnická 475/43, 170 00 Praha 7, Czechia
+address: Delnicka 43, 170 00 Praha 7, Czechia
 
 # The category of the event. Valid options:
 # - conference
