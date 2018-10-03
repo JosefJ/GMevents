@@ -73,11 +73,11 @@ time: '20:30'
 endTime: '23:30'
 
 # The URL where to akquire the tickets. Can be left empty.
-tickets: https://eventbrite.com/my-event
+tickets:
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (Euro symbol will be used).
-price: 5
+price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
 venue: Martinic Palace
