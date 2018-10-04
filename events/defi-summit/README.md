@@ -41,7 +41,7 @@ synopsis:
   -
     The DeFi - Prague summit will be a day-long conference on the latest and most pressing issues in the decentralized finance. A chance to get together for a day as a movement, united by the same overarching vision, to look back on the past year and look forward on what's to come. The event will mix talks on the main stage with participatory breakout sessions and technical workshops led by key actors of the space.
     -
-    Shared values of collaboration and openness are reasons why innovation is happening at such an astounding pace in decentralized finance. The DeFi movement upholds these values by bringing together individuals working on decentralized finance to discuss, collaborate and help each other. After our latest DeFi Summit in San Francisco, we are looking forward to hosting you at our #DeFi Prague Summit on the 29th of October!
+    Shared values of collaboration and openness are reasons why innovation is happening at such an astounding pace in decentralized finance. The DeFi movement upholds these values by bringing together individuals working on decentralized finance to discuss, collaborate and help each other. After our latest DeFi Summit in San Francisco, we are looking forward to hosting you at our DeFi Prague Summit on the 29th of October!
   -
     The event has a limited capacity. We will favor individuals who are relevant to, and can contribute to, the discussions that will be held. This event will be filmed and live streamed. Schedule will be announced soon
     
