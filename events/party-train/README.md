@@ -68,7 +68,7 @@ synopsis:
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
-date: 2018-10-19
+date: 2018-10-29
 # The date when the event ends. Can be left empty or set to the same day the
 # event starts.
 endDate: 
@@ -85,7 +85,7 @@ tickets: https://www.meetup.com/Web3-Foundation-Meetup/events/254232951/
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (Euro symbol will be used).
-price: 5
+price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
 venue: Berlin Hauptbahnhof
