@@ -75,11 +75,11 @@ tickets: TBD
 price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
-venue: TBD
+venue: Tovarna
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
-address: TBD
+address: Delnicka 63, 17000 Prague, Czech Republic
 
 # The category of the event. Valid options:
 # - conference
