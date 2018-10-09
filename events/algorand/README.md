@@ -40,7 +40,7 @@ synopsis:
   -
     We invite the Prague blockchain developers community to join us for an evening of networking, drinks and meeting the Algorand team to hear about the revolutionary alternative blockchain, developed from the first principles and enabling continuous progress.
   -
-    Turing Award winner and an MIT professor Silvio Micali will tell you about how Algorand changing the conversation in the blockchain space.
+    Turing Award winner and an MIT professor Silvio Micali will tell you about how Algorand is changing the conversation in the blockchain space.
   -  
     'Agenda:' 
   -   
