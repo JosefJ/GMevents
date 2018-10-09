@@ -69,7 +69,7 @@ endDate:
 # Example: '18:00'
 time: '19:00'
 # Time when the event ends. Can be left empty.
-endTime: '03:00'
+endTime: '02:00'
 
 # The URL where to akquire the tickets. Can be left empty.
 tickets: https://www.eventbrite.com/e/xixobit-tickets-50685418451
@@ -79,11 +79,11 @@ tickets: https://www.eventbrite.com/e/xixobit-tickets-50685418451
 price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
-venue: TBD
+venue: Altenburg 1964
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
-address: TBD
+address: Partyzánská 18/23, 170 00 Praha 7-Holešovice
 
 # The category of the event. Valid options:
 # - conference

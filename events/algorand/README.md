@@ -38,9 +38,9 @@ name: Algorand Prague Blockchain Meetup
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   -
-    We invite the Prague blockchain developers community to join us for an evening of networking, drinks and meeting the Algorand team to hear about the revolutionary alternative blockchain, developed from the first principles and enabling continuous progress.  - 
+    We invite the Prague blockchain developers community to join us for an evening of networking, drinks and meeting the Algorand team to hear about the revolutionary alternative blockchain, developed from the first principles and enabling continuous progress.
   -
-    Turing Award winner and an MIT professor Silvio Micali will tell you about how Algorand changing the conversation in the blockchain space.  -
+    Turing Award winner and an MIT professor Silvio Micali will tell you about how Algorand changing the conversation in the blockchain space.
   -  
     'Agenda:' 
   -   
@@ -127,7 +127,7 @@ speakers:
     title: Head of EMEA
     company: Algorand
     companyURL: https://algorand.com
-    twitter: sbinici
+    twitter: sbinici_
     bio: Şahver Kaya is an international executive with extensive experience in USA, Europe and Asia.
 
 ### DON'T MAKE CHANGES BELOW THIS LINE! ###
