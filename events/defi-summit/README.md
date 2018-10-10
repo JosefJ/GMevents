@@ -22,7 +22,7 @@ title: '#DeFi Summit - Prague'
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: Day-long conference on the latest and most pressing issues in decentralized finance. The event will mix talks on the main stage with participatory breakout sessions and technical workshops led by key actors of the space such as Dharma, Set Protocol and MakerDAO.
+description: Day-long conference on the latest and most pressing issues in decentralized finance. The event will mix talks on the main stage with participatory breakout sessions and technical workshops led by key actors of the space such as Dharma, Set Protocol, MakerDAO, Coinbase Wallet, Centrifuge and 0x.
 
 
 #####################
