@@ -51,7 +51,9 @@ name: Diversity & Inclusivity Evening
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   -
-    “Open Source, Open Hearts: Inclusivity Mixer” Join us for a social sidechain to the dense technical content around code and protocols. This event will allow Ethereum community members to explore the more diverse human issues which inform our many projects. In place of one-to-many speeches, we’ll have multiple nods of participatory activities around the space, and opportunities to learn more about the foundational global barriers that we aim to tackle in transforming the world with technology.
+    'Open Source, Open Hearts: Inclusivity Mixer'
+  -  
+    Join us for a social sidechain to the dense technical content around code and protocols. This event will allow Ethereum community members to explore the more diverse human issues which inform our many projects. In place of one-to-many speeches, we’ll have multiple nods of participatory activities around the space, and opportunities to learn more about the foundational global barriers that we aim to tackle in transforming the world with technology.
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
