@@ -50,10 +50,30 @@ name: Blockchain for Good Workshop
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   -
-    Calling blockchain for good projects! We’re all working on solutions to make the world a better place, and we’re all facing the same challenges to improve UX, overcome technical challenges, raise funding, etc.
+    Calling all blockchain for good projects!
   -  
-    'Find out how Alice, ConsenSys Social Impact and [others TBD] are making social change a reality, and join our thematic workshops where we’ll work together to overcome some of our shared challenges, to get more blockchain for good projects off the ground.'
-
+    Working to make the world a better place using blockchain technology? Then this event is for you. All of us in this space are facing similar challenges to improve UX, overcome technical obstacles and raise funds, so let's work on solving them together.
+  -  
+    Come and kick-start your Halloween by finding out how Alice and some of our friends got their social impact projects into production, and how we're going about scaling them. This will be followed by some hands-on workshops where you can share the challenges you're facing, and collaborate to tackle them together.
+  -  
+    'Speakers and workshop leaders come from:'
+  - list:  
+    - Alice
+    - ConsenSys Social Impact
+    - Giveth
+    - MakerDAO
+    - Bounties Network
+    - CharityDAO
+    - blockchain4humanity
+    - Ethereum Community Fund
+    - IXO
+  -  
+    and more...
+  -  
+    Food and drinks will be provided and more details released soon. Watch this space!
+  -  
+    If you would like to join us as a panellist or workshop mentor, please contact livia@alice.si
+    
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
 date: 2018-10-31
@@ -64,7 +84,7 @@ endDate:
 # Set the time in 24 hours format, surrounded by quotes.
 # _Only_ the starting time!
 # Example: '18:00'
-time: '19:00'
+time: '18:00'
 # Time when the event ends. Can be left empty.
 endTime: '22:00'
 
@@ -76,11 +96,11 @@ tickets: https://www.eventbrite.co.uk/e/blockchain-for-good-workshop-tickets-510
 price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
-venue: TBD
+venue: Snemovni 7
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
-address: TBD
+address: Sněmovní 7, 118 00 Praha
 
 # The category of the event. Valid options:
 # - conference
