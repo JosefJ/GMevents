@@ -35,7 +35,6 @@ title: Blockchain for Good Workshop
 # Linebreaks are ignored, but they _must_ start with two spaces.
 description: Alice and friends invite you to an evening of talks and hands-on workshops to accelerate the adoption of social impact dApps.
 
-
 #####################
 ### EVENT DETAILS ###
 #####################
