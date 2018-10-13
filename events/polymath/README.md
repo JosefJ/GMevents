@@ -68,7 +68,7 @@ time: '19:00'
 endTime: '22:00'
 
 # The URL where to akquire the tickets. Can be left empty.
-tickets: https://www.eventbrite.ca/e/polymath-securities-token-meetup-tickets-51302092941
+tickets: https://www.eventbrite.ca/e/polymath-securities-token-meetup-tickets-51332825864
 
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
