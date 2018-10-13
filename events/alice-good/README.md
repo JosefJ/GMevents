@@ -33,29 +33,31 @@ title: Blockchain for Good Workshop
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: Calling all blockchain for good projects!
-
-Working to make the world a better place using blockchain technology? Then this event is for you. All of us in this space are facing similar challenges to improve UX, overcome technical obstacles and raise funds, so let's work on solving them together.
-
-Come and kick-start your Halloween by finding out how Alice and some of our friends got their social impact projects into production, and how we're going about scaling them. This will be followed by some hands-on workshops where you can share the challenges you're facing, and collaborate to tackle them together.
-
-Speakers and workshop leaders come from:
-
-- Alice
-- ConsenSys Social Impact
-- Giveth
-- MakerDAO
-- Bounties Network
-- CharityDAO
-- blockchain4humanity
-- Ethereum Community Fund
-- IXO
-
-and more...
-
-Food and drinks will be provided and more details released soon. Watch this space!
-
-If you would like to join us as a panellist or workshop mentor, please contact livia@alice.si
+description:
+  -
+    Calling all blockchain for good projects!
+  -  
+    Working to make the world a better place using blockchain technology? Then this event is for you. All of us in this space are facing similar challenges to improve UX, overcome technical obstacles and raise funds, so let's work on solving them together.
+  -  
+    Come and kick-start your Halloween by finding out how Alice and some of our friends got their social impact projects into production, and how we're going about scaling them. This will be followed by some hands-on workshops where you can share the challenges you're facing, and collaborate to tackle them together.
+  -  
+    'Speakers and workshop leaders come from:'
+  - list:  
+    - Alice
+    - ConsenSys Social Impact
+    - Giveth
+    - MakerDAO
+    - Bounties Network
+    - CharityDAO
+    - blockchain4humanity
+    - Ethereum Community Fund
+    - IXO
+  -  
+    and more...
+  -  
+    Food and drinks will be provided and more details released soon. Watch this space!
+  -  
+    If you would like to join us as a panellist or workshop mentor, please contact livia@alice.si
 
 #####################
 ### EVENT DETAILS ###
