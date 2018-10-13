@@ -95,9 +95,7 @@ tickets: https://www.eventbrite.co.uk/e/blockchain-for-good-workshop-tickets-510
 price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
-venue: Sněmovní 7
-118 00 Praha - Malá Strana
-Prague
+venue: Sněmovní 7, 118 00 Praha - Malá Strana, Prague
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
