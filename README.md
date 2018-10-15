@@ -22,8 +22,16 @@ features:
     discussion platform for topics related to tech, art and science.
 
 - title: National House
-  details: Early 20th century building which served as a central point of a former town Smichov (nowadays one of the 
-    central districts of Prague). 
+  details: Early 20th century building which served as a central point 
+    of a former town Smichov (nowadays one of the central districts of Prague). 
+  
+- title: Vnitroblock
+  details: Former factory hall and bunch of garages placed in a backyard of residential 
+    buildings recently remaded as a hip cultural center. 
+  
+- title: Ackee HQ
+  details: The top floor of Danube House is where Czech development studio 
+    Ackee has its HQ and hosts many public events. 
 
 - title: Node 5
   details: One of the Prague's booming startup hubs, which servers as a workspace, event venue.

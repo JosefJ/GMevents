@@ -62,19 +62,21 @@ synopsis:
   - 
     During this event we will witness technical showcases from CTO's or technical leads from eight different projects. After each showcase there is room for a Q&A. There will be enough time for socializing and one on ones with the projects
   - 
-    These eight projects will be attending:
-  -list:
-    - NuCypher [https://www.nucypher.com]
-    - The Graph [https://thegraph.com/]
-    - Mainframe [https://mainframe.com]
-    - Chromapolis [https://chromapolis.com), presented by Chromawa]
-    - Tomochain [https://tomochain.com]
-    - Dfinity [https://dfinity.org]
-    - Project 7: tba
-    - Project 8: tba
+    'These eight projects will be attending:'
+    
+  - list:
+    - '[NuCypher](https://www.nucypher.com)'
+    - '[The Graph](https://thegraph.com/)'
+    - '[Mainframe](https://mainframe.com)'
+    - '[Chromapolis](https://chromapolis.com), presented by Chromaway'
+    - '[Tomochain](https://tomochain.com)'
+    - '[Dfinity](https://dfinity.org)'
+    - 'Project 7: tba'
+    - 'Project 8: tba'
   - 
-    Program:
-  -list:
+    'Program:'
+    
+  - list:
     - '1200 - 1300 Walk-in, snacks and socializing'
     - '1300 - 1305 Opening of the event'
     - '1305 - 1330 Showcase #1'
@@ -143,48 +145,6 @@ category: event
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove speakers as needed, but remember the hyphen before each entry.
 speakers:
-  -
-    # Required.
-    name: Carlos E. Salazar
-
-    # Can be left empty.
-    title: Lead Front-end Developer
-
-    # Can be left empty.
-    company: Least Authority
-
-    # The full URL, including http(s)://. Can be left empty.
-    companyURL: https://leastauthority.com
-
-    # Just the twitter handle, without Twitter's URL, nor the '@' symbol.
-    # Can be left empty.
-    twitter: cesalazar
-
-    # The full URL, including http(s)://. Can be left empty.
-    website: https://cesalazar.com
-
-    # The bio is a single line.
-    # Linebreaks are ignored, but they _must_ start with two spaces.
-    bio: Here goes Carlos' description. Amet corporis laudantium obcaecati
-      perferendis reiciendis rem perferendis. Magni qui reiciendis explicabo.
-  -
-    name: Vitalik Buterin
-    title: Co-founder
-    company: Ethereum
-    companyURL: https://ethereum.org/
-    twitter: VitalikButerin
-    website: https://vitalik.ca
-    bio: Vitalik Buterin is a Russian-Canadian programmer and writer primarily
-      known as a co-founder of Ethereum and as a co-founder of Bitcoin Magazine.
-  -
-    name: Kathleen Breitman
-    title: CEO
-    company: Tezos
-    companyURL: https://tezos.com/
-    twitter: breitwoman
-    website: http://kathleenbreitman.com
-    bio: Co-founder at Tezos, a fresh implementation of a blockchain which can
-      amend its protocol.
 
 ### DON'T MAKE CHANGES BELOW THIS LINE! ###
 ---

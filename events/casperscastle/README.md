@@ -54,7 +54,7 @@ synopsis:
   -  
     MEW, YAP Global and FOMO Media present Casper’s Castle Party. 
   -  
-    Limited tickets available. Interested? Please email Samantha@yapglobal.com
+    Limited tickets available. Interested? Please email cc@myetherwallet.com
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
