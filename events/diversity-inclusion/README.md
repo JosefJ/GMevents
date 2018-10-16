@@ -65,7 +65,7 @@ endDate:
 # Set the time in 24 hours format, surrounded by quotes.
 # _Only_ the starting time!
 # Example: '18:00'
-time: '18:30'
+time: '19:00'
 # Time when the event ends. Can be left empty.
 endTime: '23:00'
 
