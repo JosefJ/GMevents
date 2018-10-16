@@ -28,7 +28,7 @@
 ###########
 # The title of the page, displayed by the browser on the title of the window.
 # Ideally this is the same as the name of the event.
-title: Blockchains, LLC Global Launch Event
+title: 'Blockchains, LLC Global Launch Event'
 
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
@@ -41,7 +41,7 @@ description: Some have wondered what Blockchains, LLC is all about. And on Novem
 #####################
 # The name of the event you're creating.
 # Ideally this is the same as the title.
-name: Blockchains, LLC Global Launch Event
+name: 'Blockchains, LLC Global Launch Event'
 
 # There _needs_ to be one hyphen before each paragraph.
 # Linebreaks are ignored, but they _must_ start with two spaces.
@@ -52,14 +52,14 @@ synopsis:
   -
     Don’t miss what’s sure to be one of the most exciting events during Prague Blockchain Week — including groundbreaking news from Blockchains, LLC founder, Jeffrey Berns.
   - list:  
-    - Open bar
-    - Fully catered event: hors d’oeuvres, several delicious dining options, dessert
-    - Live performance by Marshmallow Laser Feast who is creating an immersive digital experience of the Ethereum blockchain.
-    - Complimentary round-trip transportation provided with pick up/drop off sites at Prague Congress Centre and Corinthia Hotel.
+    - 'Open bar'
+    - 'Fully catered event: hors d’oeuvres, several delicious dining options, dessert'
+    - 'Live performance by Marshmallow Laser Feast who is creating an immersive digital experience of the Ethereum blockchain.'
+    - 'Complimentary round-trip transportation provided with pick up/drop off sites at Prague Congress Centre and Corinthia Hotel.'
   -  
     All guests must be 18+ to attend, with valid photo ID. Every attendee must register individually as there will be a strict guest list. Tickets are nontransferable.
   - 
-    Complimentary round-trip transportation will be offered beginning at 6:30 p.m. Pickup and drop-off will be offered at both the Prague Congress Centre and the Corinthia Hotel.
+    'Complimentary round-trip transportation will be offered beginning at 6:30 p.m. Pickup and drop-off will be offered at both the Prague Congress Centre and the Corinthia Hotel.'
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
 date: 2018-11-01
@@ -82,7 +82,7 @@ tickets: https://www.eventbrite.com/e/blockchains-global-launch-event-tickets-51
 price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
-venue: '*UNDISCLOSED*'
+venue: 'UNDISCLOSED'
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
