@@ -79,7 +79,7 @@ venue: 'EPIC'
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
-address: '1003/3 Revoluční, Staré Město 1, 110 00 Praha 1, Czechia'
+address: '1003 Revoluční, Staré Město 1, 110 00 Praha 1, Czechia'
 
 # The category of the event. Valid options:
 # - conference

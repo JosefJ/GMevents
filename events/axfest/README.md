@@ -78,7 +78,7 @@ venue: 'La Loca Music Bar & Lounge'
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
-address: 'Odborů 278/4, 120 00 Nové Město, Czechia'
+address: 'Odborů 278, 120 00 Nové Město, Czechia'
 
 # The category of the event. Valid options:
 # - conference
