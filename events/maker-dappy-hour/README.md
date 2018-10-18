@@ -49,23 +49,22 @@ name: "The Dai 'Dappy' Hour - Prague Edition"
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   -
-    What to expect?
+    'What to expect?'
   -
-    Get ready for a true pirate experience on a boat, enjoying cheap and rummy drinks!
+    'Get ready for a true pirate experience on a boat, enjoying cheap and rummy drinks!'
   -
     "Get 1 drink for 1 Dai during the MakerDAO's Dai Dappy Hour"
   -  
-    How does it work:
-  
+    'How does it work:'
   - list: 
     - '1. At the door, pull up your wallet and show us that you have at least 1 Dai.'
     - '2. Enter the bar and order your drinks from bartenders.'
     - '3. Pay by sending Dai to the QR code pictured on posters around the bar/ or directly to our party staff!' 
     
   -  
-    Help others get dappy too!
+    'Help others get dappy too!'
   -  
-    All Dai proceeds will go to the BEN, Blockchain Education Network, to help engage and educate the public about blockchain.
+    'All Dai proceeds will go to the BEN, Blockchain Education Network, to help engage and educate the public about blockchain.'
   -  
     'RVSP to secure your spot & see you aboard :)'
     

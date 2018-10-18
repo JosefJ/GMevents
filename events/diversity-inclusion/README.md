@@ -57,7 +57,7 @@ synopsis:
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
-date: 2018-11-01
+date: 2018-10-30
 # The date when the event ends. Can be left empty or set to the same day the
 # event starts.
 endDate: 
@@ -77,11 +77,11 @@ tickets: TBD
 price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
-venue: Tovarna
+venue: National House Smichov
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
-address: Delnicka 63, 17000 Prague, Czech Republic
+address: 'Náměstí 14. října, Prague-Smíchov'
 
 # The category of the event. Valid options:
 # - conference

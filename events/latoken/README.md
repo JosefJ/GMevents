@@ -38,7 +38,7 @@ name: 'LATOKEN Blockchain Meetup'
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   -
-   What will be discussed:
+   'What will be discussed:'
   - list: 
      - 'How big can be the trading volume when blockchain exchanges will provide direct access to capital markets without intermediaries, such as brokers and custody?'
      - 'Will blockchain exchanges become future Amazons of assets?'

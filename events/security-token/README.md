@@ -43,14 +43,14 @@ synopsis:
   - 
     The goal of this networking session is to bring together business professionals, developers and exchanges who are attending Devcon4, in Prague. We want to gather together and set the tone for a conversation of interoperable security token standard to share whitelisting capability. Of course, this informal discussion will be followed by drinks to celebrate the exciting future ahead of all of us.
   -  
-    Agenda:
+    'Agenda:'
   - list: 
      - '7:30 pm Networking and Drinks'
      - '8:00 pm Introduction by Natalia Karayaneva, CEO and founder of Propy'
      - '8:30 pm Networking and Snacks'
      - '10:00 pm Conclusion'
   -
-    NOTE: This event is invite-only! There are limited seats available. For further information, please contact vera@propy.com.
+    'NOTE: This event is invite-only! There are limited seats available. For further information, please contact vera@propy.com.'
   -  
     We look forward to meeting you on November 1st!
     
