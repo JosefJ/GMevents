@@ -39,17 +39,35 @@ name: Aragon Dream DAO Party
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   -
-    The Aragon team invites you to join us in Prague on November 1st for an evening of entertainment and community.
+    "The Aragon team invites you to join us in Prague on November 1st for an evening of entertainment and community."
   -
-    Do you dream about using Decentralized Autonomous Organizations to improve your community? We are offering a chance to help make your dreams come true!
+    "Do you dream about using Decentralized Autonomous Organizations to improve your community? We are offering a chance to help make your dreams come true!"
   -
-    After socializing over food and drinks, we will be hosting the first Dream DAO pitch contest. Attendees will be able to sign up to give a five minute pitch of their Dream DAO for a chance to win a grand prize of 500 ANT and 500 DAI, with a runner up prize of 250 ANT and 250 DAI. 
+    "After socializing over food and drinks, we will be hosting the first Dream DAO pitch contest. Attendees will be able to sign up to give a five minute pitch of their Dream DAO for a chance to win a grand prize of 500 ANT and 500 DAI, with a runner up prize of 250 ANT and 250 DAI." 
   -
-    Pitches will be judged by a panel of Aragon community members based on the potential positive impact of the DAO and the realistic likelihood that the DAO will succeed when it is launched. Bonus points will be given for creativity and ambition!
+    "Pitches will be judged by a panel of Aragon community members based on the potential positive impact of the DAO and the realistic likelihood that the DAO will succeed when it is launched. Bonus points will be given for creativity and ambition!"
   -
-    After the pitch contest, we will continue partying into the night, chilling and dancing to beats mixed by talented DJs from the Ethereum community.
+    "After the pitch contest, we will continue partying into the night, chilling and dancing to beats mixed by talented DJs from the Ethereum community."
   -
-    More details coming soon!
+    'Schedule'
+    
+  - list:
+    - '18:30 - Doors open + food is served'
+    - '19:00 - Dream DAO pitch contest begins'
+    - '20:30 - Pitch contest winner announced'
+    - '20:35 - Partying continues'
+    - 'Midnight - Party ends!'
+  -
+    'Pitch contest details'
+  -
+    "Grand Prize: 500 ANT + 500 DAI + enough ETH to deploy the Dream DAO."
+  -
+    "Runner-up Prize: 250 ANT + 250 DAI + enough ETH to deploy the Dream DAO."
+  -
+    "Pitch length: 5 minutes, no slides, all passion."
+  -
+    "Sign-up in person at the event, first come first served. 15 contestants max."
+
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
@@ -63,21 +81,21 @@ endDate:
 # Example: '18:00'
 time: '18:30'
 # Time when the event ends. Can be left empty.
-endTime:
+endTime: '24:00'
 
 # The URL where to akquire the tickets. Can be left empty.
-tickets:
+tickets: https://kickback.events/event/0xecbc1cf6e45aada03cf557cfd20f85be9b29327d
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (EUR symbol will be used).
 price:
 
 # The name of the venue where the event will be held. Can be left empty.
-venue:
+venue: Rockberry Bar & Music Club
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: 5. května 1640/65, 140 21 Praha 4
-address:
+address: Sekaninova 56, 128 00, Praha 2
 
 # The category of the event. Valid options:
 # - conference
