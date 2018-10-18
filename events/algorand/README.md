@@ -45,10 +45,11 @@ synopsis:
     'Agenda:' 
   -   
     list:
-    -  '18:30 - 19:30 Walk-in & Networking'
-    -  '19:30 - 20:15 Algorand Project Presentation + Q&A'
-    -  '20:15 - 20:30 Algorand Developer Suite of Tools'
-    -  '20:30 - 22:00 Networking'
+        - '18:30 - 19:30 Walk-in & Networking'
+        - '19:30 - 20:15 Algorand Project Presentation + Q&A by Silvio Micali'
+        - '20:15 - 20:45 Algorand Developer Tools by Naveed Ihsanullah'
+        - '20:45 - 21:00 Algorand Ecosystem, Community and Partnerships by Şahver Kaya'
+        - '20:30 - 22:00 Networking'
   -
     'Event partner: [Lemniscap](https://lemniscap.com)'
 
@@ -129,7 +130,14 @@ speakers:
     companyURL: https://algorand.com
     twitter: sbinici_
     bio: Şahver Kaya is an international executive with extensive experience in USA, Europe and Asia.
-
+  -
+    name: Naveed Ihsanullah
+    title: Head of Engineering
+    bio: Naveed Ihsanullah is a senior engineering leader and technologist fascinated by distributed systems and performance. 
+    website: https://algorand.com
+    company: Algorand
+    twitter: https://twitter.com/naveedi
+    
 ### DON'T MAKE CHANGES BELOW THIS LINE! ###
 ---
 <!-- ### DON'T MAKE CHANGES BELOW THIS LINE! ### -->
