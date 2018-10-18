@@ -33,7 +33,7 @@ title: "The Dai 'Dappy' Hour - Prague Edition"
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: 'Ahoy, it's time for another dappy hour! Prague Blockchain Week is here and we could not resist throwing another Dai party. This time around, we will be warming up for the final party of the #cryptolife Hackathon. So we found a cool bar in the walking distance from the venue (National House Smichov), just on the other side of the Vltava river.'
+description: "Ahoy, it's time for another dappy hour! Prague Blockchain Week is here and we could not resist throwing another Dai party. This time around, we will be warming up for the final party of the cryptolife Hackathon. So we found a cool bar in the walking distance from the venue (National House Smichov), just on the other side of the Vltava river."
 
 #####################
 ### EVENT DETAILS ###

@@ -40,10 +40,10 @@ synopsis:
   -
    What will be discussed:
   - list: 
-   - How big can be the trading volume when blockchain exchanges will provide direct access to capital markets without intermediaries, such as brokers and custody?
-   - Will blockchain exchanges become future Amazons of assets?
-   - Will the emergence of crypto "Central banks" make monetary policy more reliable and efficient?
-   - How to create asset linked token and launch trading on LATOKEN exchange for qualified investors?
+     - 'How big can be the trading volume when blockchain exchanges will provide direct access to capital markets without intermediaries, such as brokers and custody?'
+     - 'Will blockchain exchanges become future Amazons of assets?'
+     - 'Will the emergence of crypto "Central banks" make monetary policy more reliable and efficient?'
+     - 'How to create asset linked token and launch trading on LATOKEN exchange for qualified investors?'
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
