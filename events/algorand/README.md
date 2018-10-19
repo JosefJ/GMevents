@@ -124,20 +124,20 @@ speakers:
     # Linebreaks are ignored, but they _must_ start with two spaces.
     bio: Silvio Micali is the Founder of Algorand, a revolutionary new blockchain that solves the "Blockchain Trilemma" by being truly scalable, secure and decentralized. 
   -
+      name: Naveed Ihsanullah
+      title: Head of Engineering
+      bio: Naveed Ihsanullah is a senior engineering leader and technologist fascinated by distributed systems and performance. 
+      website: https://algorand.com
+      company: Algorand
+      twitter: https://twitter.com/naveedi
+  -
     name: Şahver Kaya
     title: Head of EMEA
     company: Algorand
     companyURL: https://algorand.com
     twitter: sbinici_
     bio: Şahver Kaya is an international executive with extensive experience in USA, Europe and Asia.
-  -
-    name: Naveed Ihsanullah
-    title: Head of Engineering
-    bio: Naveed Ihsanullah is a senior engineering leader and technologist fascinated by distributed systems and performance. 
-    website: https://algorand.com
-    company: Algorand
-    twitter: https://twitter.com/naveedi
-    
+  
 ### DON'T MAKE CHANGES BELOW THIS LINE! ###
 ---
 <!-- ### DON'T MAKE CHANGES BELOW THIS LINE! ### -->
