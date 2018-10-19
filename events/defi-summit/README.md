@@ -62,7 +62,7 @@ time: '09:00'
 endTime: '17:00'
 
 # The URL where to akquire the tickets. Can be left empty.
-tickets: https://www.eventbrite.com/e/defi-summit-prague-tickets-50805973033
+tickets: https://airtable.com/tblZJKGLpNoiOIuJH/viwno4neeoKUwq2QQ
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (EUR symbol will be used).
