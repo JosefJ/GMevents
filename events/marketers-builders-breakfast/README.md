@@ -22,7 +22,7 @@ title: 'Devcon: Marketers and Community Builders Breakfast'
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: 'Welcoming the marketers and community builders behind the scenes in the Ethereum community. We're gathering a group of the top marketing and community leaders for an intimate breakfast to share learnings, experiences and best practices in working in this space. Sharing our stories from the trenches of blockchain marketing.'
+description: "Welcoming the marketers and community builders behind the scenes in the Ethereum community. We're gathering a group of the top marketing and community leaders for an intimate breakfast to share learnings, experiences and best practices in working in this space. Sharing our stories from the trenches of blockchain marketing."
 
 #####################
 ### EVENT DETAILS ###
