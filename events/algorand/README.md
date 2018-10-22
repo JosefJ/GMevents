@@ -120,7 +120,7 @@ speakers:
     twitter: Algorand
 
     # The full URL, including http(s)://. Can be left empty.
-    website: https://algorand.com
+    companyURL: https://algorand.com
 
     # The bio is a single line.
     # Linebreaks are ignored, but they _must_ start with two spaces.
@@ -129,7 +129,7 @@ speakers:
       name: Naveed Ihsanullah
       title: Head of Engineering
       bio: Naveed Ihsanullah is a senior engineering leader and technologist fascinated by distributed systems and performance. 
-      website: https://algorand.com
+      companyURL: https://algorand.com
       company: Algorand
       twitter: naveedi
   -
