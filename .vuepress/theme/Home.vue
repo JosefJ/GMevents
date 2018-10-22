@@ -133,8 +133,18 @@ export default {
     h1
       margin-top 0
       font-size 48px
+      background: black;
+      padding: 10px 20px;
+      border: 2px dashed;
+      transform: rotate(2deg);
+      border-radius: 5px;
     .description
       margin 15px auto
+      background: black;
+      padding: 10px 20px;
+      border: 2px dashed;
+      transform: rotate(-4deg);
+      border-radius: 5px;
     .action
       margin 30px auto
     .description
@@ -150,8 +160,9 @@ export default {
       padding 0.8rem 2rem
       border-radius 29px
       transition border .2s ease-in-out
-      border 1px solid #000
+      border 1px solid white
       box-sizing border-box
+      border-radius: 5px
       // border-bottom 1px solid darken($accentColor, 10%)
       &:hover
         border 1px solid $accentColor
@@ -245,7 +256,7 @@ export default {
         margin 2rem auto 1.2rem
       h1
         font-size 2rem
-        margin  0 1.2rem 2rem
+        margin: 0 3rem 2rem
       .description, .action
         margin 0.2rem auto 0.8rem
       .description

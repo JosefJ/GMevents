@@ -67,9 +67,9 @@ export default {
     color #fff
     background-color #000
     padding 0.8rem 2rem
-    border-radius 29px
+    border-radius 5px
     transition all .2s ease-in-out
-    border 1px solid #000
+    border 1px solid white
     box-sizing border-box
     pointer-events all
     &:hover
