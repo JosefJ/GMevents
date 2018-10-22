@@ -112,9 +112,6 @@ speakers:
     # Can be left empty.
     company: Algorand
 
-    # The full URL, including http(s)://. Can be left empty.
-    companyURL: https://algorand.com
-
     # Just the twitter handle, without Twitter's URL, nor the '@' symbol.
     # Can be left empty.
     twitter: Algorand

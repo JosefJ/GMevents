@@ -28,7 +28,7 @@
 ###########
 # The title of the page, displayed by the browser on the title of the window.
 # Ideally this is the same as the name of the event.
-title: "The Dai 'Dappy' Hour - Prague Edition"
+title: "The Dai 'Dappy' Hour #cryptolife Prague Edition"
 
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
@@ -40,7 +40,7 @@ description: "Ahoy, it's time for another dappy hour! Prague Blockchain Week is 
 #####################
 # The name of the event you're creating.
 # Ideally this is the same as the title.
-name: "The Dai 'Dappy' Hour - Prague Edition"
+name: "The Dai 'Dappy' Hour #cryptolife Prague Edition"
 
 # There _needs_ to be one hyphen before each paragraph.
 # Linebreaks are ignored, but they _must_ start with two spaces.
@@ -80,10 +80,10 @@ endDate:
 # Example: '18:00'
 time: '18:00'
 # Time when the event ends. Can be left empty.
-endTime: '21:00'
+endTime: '20:30'
 
 # The URL where to akquire the tickets. Can be left empty.
-tickets: https://www.eventbrite.com/e/the-dai-dappy-hour-prague-edition-tickets-51512807193#tickets
+tickets: https://www.eventbrite.com/e/the-dai-dappy-hour-cryptolife-prague-edition-tickets-51512807193
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (Euro symbol will be used).
