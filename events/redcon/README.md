@@ -1,4 +1,25 @@
 ---
+####################
+### INSTRUCTIONS ###
+####################
+# This file is a template to create new events. In order to use it, duplicate
+# the whole folder (/template) as a new folder (I.E. /my-event-name) inside of
+# the /events folder, using for the folder name _only_:
+# - lowercase letters
+# - hyphens/dashes (-) instead of spaces
+# - alphanumeric characters ('a' to 'z', '0' to '9')
+# and edit the README.md file inside that new folder just created.
+#
+# The name of the folder will be used on the URL. Example:
+# https://blockchainweek.berlin/my-event-name
+#
+# _Don't_ rename the new file (README.md), only edit its content.
+# _Don't_ remove any text before the colons at the beginning of each line,
+# only edit what is after the colon. Example:
+# Don't remove the word nor colon on 'description:'
+#
+# Every line starting with a hash symbol (#) is a comment. It will be ignored
+# and can be safely removed, including these instructions.
 ###############
 
 ###########
