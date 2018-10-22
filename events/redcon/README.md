@@ -129,7 +129,6 @@ speakers:
     bio: Five of the top ten banks in the U.S. have used software he developed; a member of the ACM and IEEE Computer Society for almost 20 years.
 
 
-
 ### DON'T MAKE CHANGES BELOW THIS LINE! ###
 ---
 <!-- ### DON'T MAKE CHANGES BELOW THIS LINE! ### -->
