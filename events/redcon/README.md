@@ -68,7 +68,6 @@ time: '11:00'
 # Time when the event ends. Can be left empty.
 endTime: '17:00'
 
-tickets: 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (EUR symbol will be used).
 price: 0
@@ -127,7 +126,6 @@ speakers:
     twitter: 
     website: 
     bio: Five of the top ten banks in the U.S. have used software he developed; a member of the ACM and IEEE Computer Society for almost 20 years.
-
 
 ### DON'T MAKE CHANGES BELOW THIS LINE! ###
 ---
