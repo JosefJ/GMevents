@@ -50,6 +50,7 @@ synopsis:
         - '20:15 - 20:45 Algorand Developer Tools by Naveed Ihsanullah'
         - '20:45 - 21:00 Algorand Ecosystem, Community and Partnerships by Şahver Kaya'
         - '20:30 - 22:00 Networking'
+        - '22:00 - 01:00 Drinks at Avion 58 bar (4min walk from Paralelní Polis)'
   -
     'Transportation options from Devcon4 venue to Paralelní Polis: [Google Maps](https://www.google.com/maps/dir/Prague+Congress+Centre,+5.+kv%C4%9Btna+1640%2F65,+140+21+Praha+4,+Czechia/Paraleln%C3%AD+Polis,+D%C4%9Blnick%C3%A1+475%2F43,+170+00+Praha+7,+Czechia/@50.0818121,14.4163387,14z/data=!4m14!4m13!1m5!1m1!1s0x470b9464c186eb79:0x4d26855708eb61f7!2m2!1d14.428506!2d50.062033!1m5!1m1!1s0x470b94b186427997:0xcad994427e27c9c0!2m2!1d14.4505577!2d50.1033854!3e0)'
   -
@@ -67,7 +68,7 @@ endDate: 2018-11-02
 # Example: '18:30'
 time: '18:30'
 # Time when the event ends. Can be left empty.
-endTime: '22:00'
+endTime: '01:00'
 
 # The URL where to akquire the tickets. Can be left empty.
 tickets: https://www.eventbrite.com/e/algorand-blockchain-meetup-prague-tickets-50969326628
