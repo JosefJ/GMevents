@@ -39,7 +39,7 @@ name: Ethereum iOS DevKit hands-on workshop
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   -
-    "We are now entering an exciting new phase of blockchain development in which Layer 2 solutions that operate "on top" of existing blockchains promise big strides in scalability, interoperability and functionality."
+    "We are now entering an exciting new phase of blockchain development in which Layer 2 solutions that operate 'on top' of existing blockchains promise big strides in scalability, interoperability and functionality."
   -  
     "On Monday Oct 29, join us for a night of beer, mingle, and tech discussion on the latest developments & breakthroughs across scaling solutions pre-Devcon! This will be an educational event so bring your best questions!" 
   - 
