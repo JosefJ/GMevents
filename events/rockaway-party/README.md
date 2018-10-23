@@ -56,7 +56,7 @@ synopsis:
   -   
     Attendance for this event requires registration.
   -  
-    More details to come.
+    "Attendance of this event requires registration. Please register at bit.ly/rockawaynight - [here](http://bit.ly/rockawaynight)"
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28

@@ -51,7 +51,7 @@ name: XIXOBIT opening party
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   -
-    First 500 tickets are free. Register immediately as the space is limited! Also we have a free drink for 200 first comers! And you get the chance to win 1000 EUR if you can decode our special brain teaser.
+    First 500 tickets are free. Register immediately as the space is limited! Also we have a free drink for 100 first comers! And you get the chance to win 1000 EUR if you can decode our special brain teaser.
   -  
     Party is only open to attendees of Devcon 4, the registration is obligatory.
   - 
