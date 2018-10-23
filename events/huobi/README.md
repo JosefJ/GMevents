@@ -69,7 +69,7 @@ venue: Holiday Inn Prague
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: 5. května 1640/65, 140 21 Praha 4
-address: Holiday Inn Prague
+address: Na Pankráci 1684, 140 00 Praha 4
 
 # The category of the event. Valid options:
 # - conference
