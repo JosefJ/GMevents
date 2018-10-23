@@ -78,11 +78,11 @@ tickets: https://www.eventbrite.com/e/coinfund-cambrial-generalized-mining-and-t
 price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
-venue: Vnitroblock
+venue: The venue will be shared with successful applicants.
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: 5. května 1640/65, 140 21 Praha 4
-address: Tusarova 31, 170 00 Praha 7
+address: 
 
 # The category of the event. Valid options:
 # - conference
