@@ -22,7 +22,7 @@ title: '#DeFi Summit - Prague'
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: Day-long conference on the latest and most pressing issues in decentralized finance. The event will mix talks on the main stage with participatory breakout sessions and technical workshops led by key actors of the space such as Dharma, Set Protocol, MakerDAO, Coinbase Wallet, Centrifuge and 0x.
+description: Day-long conference hosted by Dharma and Cambrial Capital on the latest and most pressing issues in decentralized finance. The event will mix talks on the main stage with participatory breakout sessions and technical workshops led by key actors of the space such as Dharma, Set Protocol, MakerDAO, Coinbase Wallet, Centrifuge, 0x, Zeppelin TPL, Harbor, Augur and many others!
 
 
 #####################
@@ -39,7 +39,7 @@ name: '#DeFi Summit - Prague'
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   -
-    The DeFi - Prague summit will be a day-long conference on the latest and most pressing issues in decentralized finance. A chance to get together for a day as a movement, united by the same overarching vision, to look back on the past year and look forward on what's to come. The event will mix talks on the main stage with participatory breakout sessions and technical workshops led by key actors of the space such as MakerDAO, Dharma and Set Protocol.
+    The DeFi - Prague summit will be a day-long conference hosted by Dharma and Cambrial Capital on the latest and most pressing issues in decentralized finance. A chance to get together for a day as a movement, united by the same overarching vision, to look back on the past year and look forward on what's to come. The event will mix talks on the main stage with participatory breakout sessions and technical workshops led by key actors of the space such as MakerDAO, Dharma, Set Protocol, Harbor, Augur, Polymath, Zepellin TPL and many others.
   -
     Shared values of collaboration and openness are reasons why innovation is happening at such an astounding pace in decentralized finance. The DeFi movement upholds these values by bringing together individuals working on decentralized finance to discuss, collaborate and help each other. After our latest DeFi Summit in San Francisco, we are looking forward to hosting you at our DeFi Prague Summit on the 29th of October!
   -
