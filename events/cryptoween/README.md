@@ -93,9 +93,10 @@ category: party
 # Add or remove speakers as needed, but remember the hyphen before each entry.
 speakers:
   -
+    name: Golem
     # Just the twitter handle, without Twitter's URL, nor the '@' symbol.
     # Can be left empty.
-    twitter:  @golemnetwork
+    twitter:  golemnetwork
 
     # The full URL, including http(s)://. Can be left empty.
     website: https://kickback.events/event/0xf6912d7ab160aa1645206f6725a0f57840839799
@@ -103,7 +104,6 @@ speakers:
     # The bio is a single line.
     # Linebreaks are ignored, but they _must_ start with two spaces.
     bio:
-  -
 
 
 ### DON'T MAKE CHANGES BELOW THIS LINE! ###

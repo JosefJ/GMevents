@@ -52,7 +52,7 @@ synopsis:
   -
     On the occasion of Devcon, we invite you to Rockaway Blockchain Night. Come and enjoy the atmosphere of networking, inspiration and vision in the exclusive location of 16th-century Martinic Palace, one of the most beautiful Renaissance palaces in Prague, located a few steps from Prague Castle. Just for this one night, the past and the future will unite into one – and you should be there for this unique experience.
   -  
-    Afterparty will be held at Le Valmont (Uhelný trh 414/9, Praha 1)
+    Afterparty will be held at Le Valmont (Uhelný trh 414/9, Praha 1) - It's cryptofiendly!!
   -   
     Attendance for this event requires registration.
 #  - 
