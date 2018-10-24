@@ -55,8 +55,8 @@ synopsis:
     Afterparty will be held at Le Valmont (Uhelný trh 414/9, Praha 1)
   -   
     Attendance for this event requires registration.
-  -  
-    "Attendance of this event requires registration. Please register at bit.ly/rockawaynight - [here](http://bit.ly/rockawaynight)"
+#  - 
+#    "Attendance of this event requires registration. Please register at bit.ly/rockawaynight - [here](http://bit.ly/rockawaynight)"
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
