@@ -134,9 +134,9 @@ speakers:
     # Linebreaks are ignored, but they _must_ start with two spaces.
     bio: Andrew Newman is a researche at RIAT and co-editor of 'Future Cryptoeconomics. His focus is 
     on knowledge production in outsider epistemic cultures. He is a founding editor of the Journal for 
-    Research Cultures, his publications include “Fake Organum: The Uneasy Institutionalisation of Art as  
-    Research” (2017), “Cryptocurrencies as Distributed Community Experiments” (2014) and  
-    “Experimental Cultures and Epistemic Spaces in Artistic  Research” (2013).
+    Research Cultures, his publications include 'Fake Organum: The Uneasy Institutionalisation of Art as  
+    Research' (2017), 'Cryptocurrencies as Distributed Community Experiments' (2014) and  
+    'Experimental Cultures and Epistemic Spaces in Artistic Research' (2013).
   -
     name: Ozan Polat
     title: 
