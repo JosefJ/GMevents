@@ -28,7 +28,7 @@
 ###########
 # The title of the page, displayed by the browser on the title of the window.
 # Ideally this is the same as the name of the event.
-title: Web3 Stack, What's Next for Developers?
+title: FUTURE CRYPTOECONOMICS [RIAT.AT]
 
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
@@ -132,7 +132,7 @@ speakers:
 
     # The bio is a single line.
     # Linebreaks are ignored, but they _must_ start with two spaces.
-    bio: Andrew Newman is a researche at RIAT and co-editor of 'Future Cryptoeconomics. His focus is 
+    bio: Andrew Newman is a researcher at RIAT and co-editor of FUTURE CRYPTOECONOMICS. His focus is 
     on knowledge production in outsider epistemic cultures. He is a founding editor of the Journal for 
     Research Cultures, his publications include 'Fake Organum: The Uneasy Institutionalisation of Art as  
     Research' (2017), 'Cryptocurrencies as Distributed Community Experiments' (2014) and  
