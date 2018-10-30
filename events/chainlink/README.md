@@ -22,7 +22,7 @@ title: Chainlink Devcon Happy Hour Meetup
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: 'Join the Chainlink and SmartContract.com team for a local happy hour experience as we hit up an authentic Czech bar.'
+description: 'Come join happy hour with the Chainlink team.'
 
 #####################
 ### EVENT DETAILS ###
@@ -37,10 +37,10 @@ name: Chainlink Devcon Happy Hour Meetup
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
-  -
-    'Come along for discussions about blockchain, oracles, security systems, casual networking and fun -- plus drinks and snacks on us! Please RSVP to give a headcount as the space is intimate. We look forward to seeing you there!'
-  -   
-     'The venue is a short 10-minute walk North of the Devcon Convention Center.'
+  Enjoy sweeping views of the city while celebrating Halloween and the 10 year anniversary of the Bitcoin whitepaper. Come along for discussions about how decentralization will change the world, smart contracts, oracles, and fun.
+
+
+  Thank you!
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
@@ -54,7 +54,7 @@ endDate:
 # Example: '18:30'
 time: '17:00'
 # Time when the event ends. Can be left empty.
-endTime: '19:00'
+endTime: '20:00'
 
 # The URL where to akquire the tickets. Can be left empty.
 tickets: https://www.eventbrite.com/e/chainlink-devcon-happy-hour-meetup-tickets-51536288426
@@ -64,11 +64,11 @@ tickets: https://www.eventbrite.com/e/chainlink-devcon-happy-hour-meetup-tickets
 price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
-venue: Hospoda Pod Nuselským Mostem
+venue: Corinthia Hotel, Bellevue Room
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: 5. května 1640/65, 140 21 Praha 4
-address: Jaromírova 33 Nusle, Hlavní Město Praha, 12800 Czechia
+address: 24th Floor PH, Kongresová 1655/1, 140 69, 12800 Praha 4-Nusle
 
 # The category of the event. Valid options:
 # - conference
