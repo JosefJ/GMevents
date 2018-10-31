@@ -17,7 +17,7 @@
 ###########
 # The title of the page, displayed by the browser on the title of the window.
 # Ideally this is the same as the name of the event.
-title: 'DEVCON4 Security Token Party by Propy'
+title: 'DEVCON4 Security Token Party by Propy, Bitscale Capital, Di Capital and AdEx'
 
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
@@ -30,7 +30,7 @@ description: Invite only Security Token Party.
 #####################
 # The name of the event you're creating.
 # Ideally this is the same as the title.
-name: 'DEVCON4 Security Token Party by Propy'
+name: 'DEVCON4 Security Token Party by Propy, Bitscale Capital, Di Capital and AdEx'
 
 # There _needs_ to be one hyphen before each paragraph.
 # Linebreaks are ignored, but they _must_ start with two spaces.
@@ -42,13 +42,6 @@ synopsis:
     Come join us for what is next for tokenised hard assets!
   - 
     The goal of this networking session is to bring together business professionals, developers and exchanges who are attending Devcon4, in Prague. We want to gather together and set the tone for a conversation of interoperable security token standard to share whitelisting capability. Of course, this informal discussion will be followed by drinks to celebrate the exciting future ahead of all of us.
-  -  
-    'Agenda:'
-  - list: 
-     - '7:30 pm Networking and Drinks'
-     - '8:00 pm Introduction by Natalia Karayaneva, CEO and founder of Propy'
-     - '8:30 pm Networking and Snacks'
-     - '10:00 pm Conclusion'
   -
     'NOTE: This event is invite-only! There are limited seats available. For further information, please contact vera@propy.com.'
   -  
@@ -64,9 +57,9 @@ endDate:
 # Set the time in 24 hours format, surrounded by quotes.
 # _Only_ the starting time!
 # Example: '18:00'
-time: '19:30'
+time: '20:00'
 # Time when the event ends. Can be left empty.
-endTime: '22:00'
+endTime: '00:00'
 
 # The URL where to akquire the tickets. Can be left empty.
 tickets: 
