@@ -37,10 +37,10 @@ name: Chainlink Devcon Happy Hour Meetup
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
-  Enjoy sweeping views of the city while celebrating Halloween and the 10 year anniversary of the Bitcoin whitepaper. Come along for discussions about how decentralization will change the world, smart contracts, oracles, and fun.
-
-
-  Thank you!
+  -
+    "Enjoy sweeping views of the city while celebrating Halloween and the 10 year anniversary of the Bitcoin whitepaper. Come along for discussions about how decentralization will change the world, smart contracts, oracles, and fun."
+  -
+    "Thank you!"
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
@@ -68,7 +68,7 @@ venue: Corinthia Hotel, Bellevue Room
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: 5. května 1640/65, 140 21 Praha 4
-address: 24th Floor PH, Kongresová 1655/1, 140 69, 12800 Praha 4-Nusle
+address: 24th Floor PH, Kongresová 1, 140 69, 12800 Praha 4-Nusle
 
 # The category of the event. Valid options:
 # - conference
