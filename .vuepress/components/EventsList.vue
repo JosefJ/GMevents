@@ -213,7 +213,7 @@ function addDays (date, days) {
     border-top 1px solid darken(#fff, 75%)
     position sticky
     top $navbarHeight - 1.5em
-    background #000
+    background #191970
     .datetime
       opacity 1
       color #fff
@@ -236,7 +236,7 @@ function addDays (date, days) {
       border-bottom 3px solid transparent
       transition all .3s ease-out
       text-decoration none !important
-      text-shadow 2px 2px 2px #000
+      text-shadow 2px 2px 2px #191970
       &:hover
         border-bottom 3px solid $accentColor
   .filters

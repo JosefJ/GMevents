@@ -152,8 +152,8 @@ $border-radius = 10px
     color transparent
     cursor pointer
     outline none
-    background #000 url('~/search.svg') no-repeat 8px center
-    border 1px solid #000
+    background #191970 url('~/search.svg') no-repeat 8px center
+    border 1px solid #191970
     padding 9px
     border-radius 29px
     transition all .5s
@@ -165,15 +165,15 @@ $border-radius = 10px
       width 11em
       padding-left 32px
       color #fff
-      background-color #000
+      background-color #191970
       border-color $accentColor
       cursor auto
   .suggestions
-    background #000
+    background #191970
     width 25rem
     position absolute
     top 1.7rem
-    border 1px solid lighten(#000, 20%)
+    border 1px solid lighten(#191970, 20%)
     border-radius $border-radius
     padding 0.4rem
     list-style-type none
@@ -192,7 +192,7 @@ $border-radius = 10px
         font-size 0.9em
         margin-left 0.25em
     &.focused
-      background-color lighten(#000, 5%)
+      background-color lighten(#191970, 5%)
       a
         color $accentColor
 

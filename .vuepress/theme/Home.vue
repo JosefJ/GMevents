@@ -85,7 +85,7 @@ export default {
     color #fff
     padding 200px 0
   &_about
-    background #000
+    background #191970
     color #fff
     hr, br
       display none
@@ -114,7 +114,7 @@ export default {
       left: 0
       width: 100%
       height: 100%
-      background-color: rgba(#000,.4)
+      background-color: rgba(#191970,.4)
     .home-wrap
       position: relative
       z-index: 2
@@ -133,14 +133,14 @@ export default {
     h1
       margin-top 0
       font-size 48px
-      background: black;
+      background: #191970;
       padding: 10px 20px;
       border: 2px dashed;
       transform: rotate(2deg);
       border-radius: 5px;
     .description
       margin 15px auto
-      background: black;
+      background: #191970;
       padding: 10px 20px;
       border: 2px dashed;
       transform: rotate(-4deg);
@@ -156,7 +156,7 @@ export default {
       display inline-block
       font-size 18px
       color #fff
-      background-color #000
+      background-color #191970
       padding 0.8rem 2rem
       border-radius 29px
       transition border .2s ease-in-out
@@ -197,7 +197,7 @@ export default {
       margin 15px 0
   .footer
     padding 0.9rem 3.9rem
-    background #000
+    background #191970
     text-align center
     color lighten($textColor, 25%)
     display flex
@@ -216,7 +216,7 @@ export default {
       padding 0.8rem 2rem
       border-radius 29px
       transition border .2s ease-in-out
-      border: 1px solid #000
+      border: 1px solid #191970
       box-sizing border-box
       font-size 18px
       &:hover

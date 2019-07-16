@@ -51,7 +51,7 @@ export default {
     left: 0
     width: 100%
     height: 100%
-    background-color: rgba(#000,.4)
+    background-color: rgba(#191970,.4)
   h1
     position: relative
     z-index: 2
@@ -65,7 +65,7 @@ export default {
     margin -2em 0 0
     font-size 18px
     color #fff
-    background-color #000
+    background-color #191970
     padding 0.8rem 2rem
     border-radius 5px
     transition all .2s ease-in-out

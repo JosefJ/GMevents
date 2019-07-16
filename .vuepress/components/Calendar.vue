@@ -240,7 +240,7 @@ const resetHeadersPosition = function () {
 <style scoped lang="stylus">
 @import '../theme/styles/config.styl'
 
-$headerColor = #000
+$headerColor = #191970
 $borderColor = #222
 $thickBorder = 2px solid $borderColor
 $thinBorder = 1px solid $borderColor
