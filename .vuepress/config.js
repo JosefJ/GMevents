@@ -3,7 +3,7 @@ module.exports = {
   // base: '/PragueBlockchainWeek/',
   // Leave the base as '/' if serving the content from a custom domain
   base: '/',
-  title: '[EVENT_NAME]+',
+  title: '[EVENT_NAME]',
   head: [
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'icon', href: '/logo-black.png' }],
