@@ -241,10 +241,10 @@ const resetHeadersPosition = function () {
 @import '../theme/styles/config.styl'
 
 $headerColor = #191970
-$borderColor = #222
+$borderColor = #e1e1f8
 $thickBorder = 2px solid $borderColor
 $thinBorder = 1px solid $borderColor
-$backgroundColor = #151515
+$backgroundColor = #191970
 $lightColor = lighten($headerColor, 90%)
 $headersTransition = all 0.25s ease-out
 
