@@ -85,7 +85,7 @@ import { capitalizeWord } from './../theme/util.js'
 export default {
   components: { DateTime },
   data: () => ({
-    firstDay: new Date('2019-10-05'),
+    firstDay: new Date('2019-10-02'),
     duration: 12,
     descending: false,
     categories: [],
