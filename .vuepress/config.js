@@ -29,7 +29,7 @@ module.exports = {
       }
 
     ],
-    logo: 'logo.png',
+    logo: 'logo.jpg',
     search: false,
     // Assumes GitHub. Can also be a full GitLab url.
     // repo: 'JosefJ/PragueBlockchainWeek',
