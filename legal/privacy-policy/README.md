@@ -4,13 +4,13 @@ title: Privacy Policy
 
 # Privacy Policy
 
-The pragueblockchainweek.cz website provides information about Prague Blockchain
+The EVENT_URL website provides information about [EVENT_NAME]
 Week, a series of independent events organized by individuals, in order to
 promote blockchain technology.
 
 This page is used to inform website visitors regarding our policies with the
 collection, use, and disclosure of Personal Information if anyone decided to
-use our Service, the pragueblockchainweek.cz website.
+use our Service, the EVENT_URL website.
 
 ## Information Collection and Use
 
@@ -18,7 +18,7 @@ We don’t store your data, period.
 
 ## Cookies
 
-pragueblockchainweek.cz does not use cookies to collect information.
+EVENT_URL does not use cookies to collect information.
 
 ## Links to Other Sites
 

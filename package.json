@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:JosefJ/PragueBlockchainWeek.git",
-  "author": "Josef Jelacic <josef@polynom.com>",
+  "author": "Makoto Inoue (forked from the version by Josef Jelacic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JosefJ/PragueBlockchainWeek/issues"
+    "url": "GITHUB_URL/issues"
   },
-  "homepage": "https://pragueblockchainweek.cz",
+  "homepage": "https://EVENT_URL",
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build"

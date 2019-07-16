@@ -1,6 +1,6 @@
 {
-  "name": "Prague Blockchain Week",
-  "short_name": "Prague Blockchain Week",
+  "name": "[EVENT_NAME]",
+  "short_name": "[EVENT_NAME]",
   "icons": [
     {
       "src": "/logo-192x192.png",
