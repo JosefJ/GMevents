@@ -38,7 +38,7 @@ footer:
 
 Blockchain Week initiatives are happening all over the world whenever 
 there is a large gathering of blockchain and cryptocurrencies enthusiasts 
-around. The [EVENT_NAME]+ is no different, it's just a bit longer. 
+around. The Osaka blockchain event calendar+ is no different, it's just a bit longer. 
 This is an voluntary initiative which was formed around the Ethereum Devcon 5 
 and which will provide an overview and support for all the blockchain 
 technology related events happening in Osaka between Oct 8. and Oct 11. 2018. 

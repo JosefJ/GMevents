@@ -1,6 +1,6 @@
 {
-  "name": "[EVENT_NAME]",
-  "short_name": "[EVENT_NAME]",
+  "name": "Osaka blockchain event calendar",
+  "short_name": "Osaka blockchain event calendar",
   "icons": [
     {
       "src": "/logo-192x192.png",
