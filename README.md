@@ -36,7 +36,7 @@ footer:
 
 <hr /><br />
 
-Blockchain Week initiatives are happening all over the world whenever 
+Hello Blockchain Week initiatives are happening all over the world whenever
 there is a large gathering of blockchain and cryptocurrencies enthusiasts 
 around. The Osaka blockchain event calendar is no different, it's just a bit longer.
 This is an voluntary initiative which was formed around the Ethereum Devcon 5 
