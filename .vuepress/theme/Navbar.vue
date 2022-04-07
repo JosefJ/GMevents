@@ -4,10 +4,18 @@
       <img class="logo" :src="$withBase(logo)" alt="Logo">
     </router-link>
     <div class="links">
-      <NavLinks class="can-hide"/>
+      <!-- <NavLinks class="can-hide"/> -->
+      <div
+        class="can-hide link"
+        v-for="item in this.links"
+        :key="item.link">
+        <NavLink :item="item"/>
+      </div>
+
       <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia"/>
       <SearchBox v-else-if="$site.themeConfig.search !== false"/>
     </div>
+    <Button buttonText="Submit Event" to="https://goo.gl/forms/zYvjmpEsfeM1KpRt2" />
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
   </header>
 </template>
@@ -16,10 +24,35 @@
 import SidebarButton from './SidebarButton.vue'
 import AlgoliaSearchBox from '@AlgoliaSearchBox'
 import SearchBox from './SearchBox.vue'
-import NavLinks from './NavLinks.vue'
+import NavLink from './NavLink.vue'
+import Button from './Button.vue'
 
 export default {
-  components: { SidebarButton, NavLinks, SearchBox, AlgoliaSearchBox },
+  components: { SidebarButton, NavLink, SearchBox, AlgoliaSearchBox, Button },
+  data () {
+    return {
+      links: [
+      {
+        items: [],
+        link: "/events/",
+        text: "Events",
+        type: "link",
+      },
+      {
+        items: [],
+        link: "/calendar/",
+        text: "Calendar",
+        type: "link",
+      }, 
+      {
+        items: [],
+        link: "https://medium.com/noblocknoparty/how-blockparty-can-decrease-no-shows-at-your-next-event-5e5895f1a23f",
+        text: "Use Kickback",
+        type: "link",
+      }
+      ]
+    }
+  },
   computed: {
     algolia () {
       return this.$themeLocaleConfig.algolia || this.$site.themeConfig.algolia || {}
@@ -28,7 +61,7 @@ export default {
       return this.algolia && this.algolia.apiKey && this.algolia.indexName
     },
     logo () {
-      return require('./../public/logo.png')
+      return require('./../public/logo_prague_blockchain_week.svg')
     }
   }
 }
@@ -38,7 +71,9 @@ export default {
 @import './styles/config.styl'
 
 .navbar
-  padding 0.9rem 3.5rem
+  padding 0.9rem 225px
+  display flex
+  justify-content space-between
   line-height $navbarHeight - 1.4rem
   position relative
   a, span, img
@@ -55,9 +90,10 @@ export default {
     position relative
   .links
     font-size 0.9rem
-    position absolute
-    right 3.5rem
-    top 0.7rem
+    display flex
+    .link
+      padding 0 1.5rem
+      color white
 
 @media (max-width: $MQMobile)
   .navbar
