@@ -2,10 +2,9 @@
   <router-link
     :class="className"
     :to="link"
-    v-if="!isExternal(link)"
     :exact="exact"
   >{{ item.text }}</router-link>
-  <a
+  <!-- <a
     v-else
     :href="link"
     :class="[className, 'external']"
@@ -14,7 +13,7 @@
   >
     {{ item.text }}
     <OutboundLink/>
-  </a>
+  </a> -->
 </template>
 
 <script>

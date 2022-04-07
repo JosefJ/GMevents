@@ -1,23 +1,27 @@
 <template>
-  <header class="navbar">
-    <router-link :to="$localePath" class="home-link">
-      <img class="logo" :src="$withBase(logo)" alt="Logo">
-    </router-link>
-    <div class="links">
-      <!-- <NavLinks class="can-hide"/> -->
-      <div
-        class="can-hide link"
-        v-for="item in this.links"
-        :key="item.link">
-        <NavLink :item="item"/>
-      </div>
+    <header class="navbar">
+      <LaneAbove />
+      <div class="menu">
+        <router-link :to="$localePath" class="home-link">
+          <img class="logo" :src="$withBase(logo)" alt="Logo">
+        </router-link>
+        <div class="links">
+          <!-- <NavLinks class="can-hide"/> -->
+          <div
+            class="can-hide link"
+            v-for="item in this.links"
+            :key="item.link">
+            <NavLink :item="item"/>
+          </div>
 
-      <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia"/>
-      <SearchBox v-else-if="$site.themeConfig.search !== false"/>
-    </div>
-    <Button buttonText="Submit Event" to="https://goo.gl/forms/zYvjmpEsfeM1KpRt2" />
-    <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
-  </header>
+          <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia"/>
+          <SearchBox v-else-if="$site.themeConfig.search !== false"/>
+        </div>
+        <Button buttonText="Submit Event" to="https://goo.gl/forms/zYvjmpEsfeM1KpRt2" />
+        <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
+      </div>
+    </header>
+  </div>
 </template>
 
 <script>
@@ -26,9 +30,10 @@ import AlgoliaSearchBox from '@AlgoliaSearchBox'
 import SearchBox from './SearchBox.vue'
 import NavLink from './NavLink.vue'
 import Button from './Button.vue'
+import LaneAbove from '../components/LaneAbove.vue'
 
 export default {
-  components: { SidebarButton, NavLink, SearchBox, AlgoliaSearchBox, Button },
+  components: { SidebarButton, NavLink, SearchBox, AlgoliaSearchBox, Button, LaneAbove },
   data () {
     return {
       links: [
@@ -70,10 +75,14 @@ export default {
 <style lang="stylus">
 @import './styles/config.styl'
 
-.navbar
-  padding 0.9rem 225px
+.menu
+  padding 0.1rem $sidesPadding
   display flex
+  align-items center
   justify-content space-between
+  height 87px
+
+.navbar
   line-height $navbarHeight - 1.4rem
   position relative
   a, span, img
