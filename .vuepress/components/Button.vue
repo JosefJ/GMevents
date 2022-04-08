@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import NavLink from './NavLink.vue'
+import NavLink from '../theme/NavLink.vue'
 
 export default {
   components: { NavLink },
@@ -44,10 +44,12 @@ export default {
 
 .primary-btn {
   background: rgba(0, 255, 224, 0.35);
-  color: var(--col-text-accent-light);
   padding: 15px 24px;
   cursor: pointer;
   line-height: 14px;
+  border-radius: 2px;
+  color: #69E2D5;
+  font-family: 'Oxygen Mono', monospace;
 }
 
 .primary-btn:hover {

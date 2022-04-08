@@ -59,12 +59,6 @@ export default {
       return require(`./../public/pwn_logo.svg`)
     }
   },
-  methods: {
-    // getImagePath (image) {
-    //   console.log('image: ', image);
-    //   return require(`./../public/${image}.svg`)
-    // }
-  }
 };
 </script>
 
@@ -85,6 +79,7 @@ export default {
   align-items: center;
   justify-content: center;
   font-size: 14px;
+  font-family: 'Oxygen Mono', monospace;
   margin: 0 1.5rem;
 }
 
