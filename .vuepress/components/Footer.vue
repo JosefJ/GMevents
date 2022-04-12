@@ -59,7 +59,6 @@ export default {
   display flex
   justify-content space-between
   padding 5rem $sidesPadding
-  margin-top 2rem
   background #100e14
 
   &_left

@@ -46,7 +46,7 @@ export default {
   background: rgba(0, 255, 224, 0.35);
   padding: 15px 24px;
   cursor: pointer;
-  line-height: 14px;
+  line-height: 18px;
   border-radius: 2px;
   color: #69E2D5;
   font-family: 'Oxygen Mono', monospace;

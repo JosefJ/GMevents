@@ -2,6 +2,7 @@
   <div class="home">
     <Hero />
     <PragueCongressCenter />
+    <Events />
     <Footer />
   </div>
 </template>
@@ -10,11 +11,12 @@
 import NavLink from './NavLink.vue'
 import Button from '../components/Button.vue'
 import Hero from '../components/Home/Hero.vue'
+import Events from '../components/Home/Events.vue'
 import Footer from '../components/Footer.vue'
 import PragueCongressCenter from '../components/Home/PragueCongressCenter.vue'
 
 export default {
-  components: { NavLink, Button, Hero, Footer, PragueCongressCenter }
+  components: { NavLink, Button, Hero, Footer, PragueCongressCenter, Events }
 }
 </script>
 
