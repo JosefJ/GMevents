@@ -62,6 +62,7 @@ export default {
       return this.userNav
     },
     userLinks () {
+      // console.log('this.nav: ', this.nav);
       return (this.nav || []).map(link => {
         return Object.assign(resolveNavLinkItem(link), {
           items: (link.items || []).map(resolveNavLinkItem)

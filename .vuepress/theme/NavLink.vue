@@ -1,30 +1,34 @@
 <template>
   <router-link
-    class="nav-link"
+    :class="className"
     :to="link"
-    v-if="!isExternal(link)"
     :exact="exact"
   >{{ item.text }}</router-link>
-  <a
+  <!-- <a
     v-else
     :href="link"
-    class="nav-link external"
+    :class="[className, 'external']"
     :target="isMailto(link) || isTel(link) ? null : '_blank'"
     :rel="isMailto(link) || isTel(link) ? null : 'noopener noreferrer'"
   >
     {{ item.text }}
     <OutboundLink/>
-  </a>
+  </a> -->
 </template>
 
 <script>
 import { isExternal, isMailto, isTel, ensureExt } from './util'
 
 export default {
+  name: "NavLink",
   props: {
     item: {
       required: true
-    }
+    },
+    className: {
+      type: String,
+      default: "nav-link"
+    },
   },
   computed: {
     link () {
