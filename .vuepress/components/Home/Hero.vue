@@ -1,10 +1,10 @@
 <template>
   <div class="hero">
     <div class="hero_headline-date">
-      24. October - 4. November 2022
+      3. June - 12. June 2022
     </div>
       <div class="hero_headline">
-      PRAGUE BLOCKCHAIN WEEK 2022
+        GM PRAGUE 2022
     </div>
     <Button buttonText="See Events" to="/events/" />
   </div>

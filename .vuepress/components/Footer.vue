@@ -2,13 +2,13 @@
   <div class="footer">
     <div class="footer_left">
       <div class="footer_left_socials">
-        <a href="#" class="footer_left_socials_link">
-          <img src='./../public/fb.svg' alt="facebook" />
-        </a>
-        <a href="#" class="footer_left_socials_link">
-          <img src='./../public/instagram.svg' alt="instagram" />
-        </a>
-        <a href="#" class="footer_left_socials_link">
+<!--        <a href="#" class="footer_left_socials_link">-->
+<!--          <img src='./../public/fb.svg' alt="facebook" />-->
+<!--        </a>-->
+<!--        <a href="#" class="footer_left_socials_link">-->
+<!--          <img src='./../public/instagram.svg' alt="instagram" />-->
+<!--        </a>-->
+        <a href="https://twitter.com/ethprague" class="footer_left_socials_link">
           <img src='./../public/twitter.svg' alt="twitter" />
         </a>
       </div>
@@ -20,13 +20,13 @@
         </span>
       </div>
       <div>
-        © 2021-2022 Prague Blockchain Week. All Rights Reserved.
+        2022 PWN AG
       </div>
     </div>
 
     <div class="footer_right">
       <div class="footer_right_hash">
-        #PBW2022
+        #GMevents
       </div>
       <div class="footer_right_powered-by">
         Powered by

@@ -28,12 +28,12 @@
 ###########
 # The title of the page, displayed by the browser on the title of the window.
 # Ideally this is the same as the name of the event.
-title: Rockaway Blockchain Night
+title: ETHPrague
 
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: Cocktails and inspirational people at a place where the past meets the future.
+description: The Solarpunk hackathon focusing on the future potential of Ethereum and concepts or applications which do not yet exist.
 
 
 #####################
@@ -41,7 +41,7 @@ description: Cocktails and inspirational people at a place where the past meets 
 #####################
 # The name of the event you're creating.
 # Ideally this is the same as the title.
-name: "Rockaway Blockchain Night: Afterparty"
+name: ETHPrague 2022
 
 # There _needs_ to be one hyphen before each paragraph.
 # Linebreaks are ignored, but they _must_ start with two spaces.
@@ -49,35 +49,39 @@ name: "Rockaway Blockchain Night: Afterparty"
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
-  -
-    The Rockaway Blockchain Night afterparty will be held at Le Valmont Club & Lounge, a crypto-friendly bar located in the heart of Prague’s Old town from 23:30. Attendance for this event requires registration for [Rockaway Blockchain Night](https://pragueblockchainweek.cz/events/rockaway-party/).
+  - ETHPrague is not looking for the next get rich quickly scheme or groundbreaking DeFi apps, instead it is an 
+    event focusing on the future potential of Ethereum and concepts or applications which do not yet exist. We want to 
+    tackle challenges which will or might arise in the next decade and we believe Ethereum will play a major role in 
+    solving these. The future is in your hands, anon! You decide whether we end up living in a dark authoritarian 
+    dystopia or a bright solarpunk utopia.
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
-date: 2018-11-01
+date: 2022-06-10
 # The date when the event ends. Can be left empty or set to the same day the
 # event starts.
-endDate:
+endDate: 2022-06-12
 
 # Set the time in 24 hours format, surrounded by quotes.
 # _Only_ the starting time!
 # Example: '18:00'
-time: '23:30'
+time: '09:30'
 # Time when the event ends. Can be left empty.
+endTime: '18:00'
 
-# The URL where to akquire the tickets. Can be left empty.
-tickets:
+# The URL where to acquire the tickets. Can be left empty.
+tickets: https://ethprague.com/
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (Euro symbol will be used).
 price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
-venue: Le Valmont Club & Lounge
+venue: Paralelni Polis
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
-address: Uhelný trh 414/9, 110 00 Staré Město
+address: Delnicka 475/43, 170 00 Praha 7
 
 # The category of the event. Valid options:
 # - conference
@@ -87,7 +91,7 @@ address: Uhelný trh 414/9, 110 00 Staré Město
 # - workshop
 # - party
 # Use _only_ one, and don't capitalize.
-category: party
+category: hackathon
 
 
 #################

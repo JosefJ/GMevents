@@ -3,7 +3,7 @@ module.exports = {
   // base: '/PragueBlockchainWeek/',
   // Leave the base as '/' if serving the content from a custom domain
   base: '/',
-  title: 'Prague Blockchain Week+',
+  title: 'Prague GM Events',
   head: [
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'icon', href: '/logo-black.png' }],
@@ -22,12 +22,7 @@ module.exports = {
       {
         text: 'Submit an Event',
         link: 'https://goo.gl/forms/zYvjmpEsfeM1KpRt2'
-      },
-      {
-        text: 'Use Kickback',
-        link: 'https://medium.com/noblocknoparty/how-blockparty-can-decrease-no-shows-at-your-next-event-5e5895f1a23f'
       }
-
     ],
     logo: 'logo.png',
     search: false,
