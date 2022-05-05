@@ -1,10 +1,11 @@
 <template>
   <router-link
+    v-if="!isExternal(link)"
     :class="className"
     :to="link"
     :exact="exact"
   >{{ item.text }}</router-link>
-  <!-- <a
+  <a
     v-else
     :href="link"
     :class="[className, 'external']"
@@ -12,8 +13,8 @@
     :rel="isMailto(link) || isTel(link) ? null : 'noopener noreferrer'"
   >
     {{ item.text }}
-    <OutboundLink/>
-  </a> -->
+    <!-- <OutboundLink/> -->
+  </a>
 </template>
 
 <script>

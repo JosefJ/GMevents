@@ -17,7 +17,7 @@
           <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia"/>
           <SearchBox v-else-if="$site.themeConfig.search !== false"/>
         </div>
-        <Button buttonText="Submit Event" to="https://cf23uhv4kuq.typeform.com/to/pVgp6whd" />
+        <Button class="menu_button-submit-event" buttonText="Submit Event" to="https://goo.gl/forms/zYvjmpEsfeM1KpRt2" />
         <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
       </div>
     </header>
@@ -73,7 +73,9 @@ export default {
   display flex
   align-items center
   justify-content space-between
-  height 87px
+
+  &_button-submit-event
+    display none
 
 .navbar
   line-height $navbarHeight - 1.4rem
@@ -108,4 +110,12 @@ export default {
     
     .can-hide
       display none
+
+@media (min-width: $MQMobile)
+  .menu
+    height 87px
+
+    &_button-submit-event
+      display block
+
 </style>

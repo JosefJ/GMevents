@@ -57,6 +57,8 @@ export default {
   border-top 1px solid #212533
   color #fff
   display flex
+  flex-wrap wrap
+  row-gap 1.5rem
   justify-content space-between
   padding 5rem $sidesPadding
   background #100e14
@@ -86,7 +88,6 @@ export default {
   &_right
     display flex
     flex-direction column
-    align-items flex-end
 
   &_right_hash
     font-size 32px
@@ -101,7 +102,15 @@ export default {
     font-weight: 400;
     line-height: 20px;
     text-align: left;
-    margin: 0.3rem 1.3rem;
+    margin: 0.3rem 0.3rem;
+
+@media(min-width: 555px)
+  .footer
+    &_right
+      align-items flex-end
+
+    &_right_powered-by
+      margin: 0.3rem 1.3rem;
 
 </style>
 

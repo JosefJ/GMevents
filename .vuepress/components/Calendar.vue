@@ -48,13 +48,16 @@
         </tr>
       </tbody>
     </table>
+    <Footer />
   </div>
 </template>
 
 <script>
 const debounce = require('debounce')
+import Footer from '../components/Footer.vue'
 
 export default {
+   components: { Footer },
   data: () => ({
     // First calendar day of the event (October 24)
     firstDay: 3,
@@ -208,9 +211,9 @@ const scrollHeaders = function () {
   if (!hero || !thead || !hours) return
 
   let heroHeight = hero.offsetHeight
-
+ 
   if (this.scrollTop >= heroHeight) {
-    thead.style.transform = `translate(0, ${this.scrollTop - heroHeight}px)`
+    thead.style.transform = `translate(0, ${this.scrollTop - heroHeight + 10}px)`
   } else {
     thead.style.transform = `translate(0, 0)`
   }

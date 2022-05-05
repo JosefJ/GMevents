@@ -1,9 +1,9 @@
 <template>
-  <div class="hero">
-    <div class="hero_headline-date">
+  <div class="hero-main">
+    <div class="hero-main_headline-date">
       3. June - 12. June 2022
     </div>
-      <div class="hero_headline">
+      <div class="hero-main_headline">
         GM PRAGUE 2022
     </div>
     <Button buttonText="See Events" to="/events/" />
@@ -21,7 +21,7 @@ export default {
 <style lang="stylus">
 @import '../../theme/styles/config.styl'
 
-.hero
+.hero-main
   color #fff
   display flex
   flex-direction column
@@ -36,10 +36,9 @@ export default {
     margin-bottom 1rem
 
   &_headline
-    font-size 120px
-    line-height 120px
+    font-size clamp(3rem, calc(-0.875rem + 8.333vw), 10.5rem)
     text-align center
-    width 55rem
+    max-width 55rem
     margin-bottom 2rem
 
 </style>
