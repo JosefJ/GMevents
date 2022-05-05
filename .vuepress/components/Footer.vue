@@ -13,7 +13,7 @@
         </a>
       </div>
       <div>
-        <span v-for="link in data.footer">
+        <span v-for="link in footer">
           <a :href="link.url" class="footer_left_link">
             {{ link.text }}
           </a>
@@ -42,10 +42,13 @@
 <script>
 
 export default {
-  computed: {
-      data () {
-      return this.$page.frontmatter
-    },
+  data () {
+    return {
+      footer: [{
+        url: '/legal/privacy-policy/', 
+        text: 'Privacy policy'
+        }]
+      }
   },
 }
 </script>

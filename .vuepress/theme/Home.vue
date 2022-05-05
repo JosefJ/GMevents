@@ -3,7 +3,6 @@
     <Hero />
     <Venues />
     <Events />
-    <Footer />
   </div>
 </template>
 

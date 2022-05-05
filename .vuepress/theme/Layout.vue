@@ -17,6 +17,7 @@
       <slot name="page-top" slot="top"/>
       <slot name="page-bottom" slot="bottom"/>
     </Page>
+    <Footer /> 
   </div>
 </template>
 
@@ -27,6 +28,7 @@ import Home from './Home.vue'
 import Navbar from './Navbar.vue'
 import Page from './Page.vue'
 import Sidebar from './Sidebar.vue'
+import Footer from '../components/Footer.vue'
 import { resolveSidebarItems } from './util'
 
 export default {
