@@ -48,16 +48,13 @@
         </tr>
       </tbody>
     </table>
-    <Footer />
   </div>
 </template>
 
 <script>
 const debounce = require('debounce')
-import Footer from '../components/Footer.vue'
 
 export default {
-  components: { Footer },
   data: () => ({
     // First calendar day of the event (October 24)
     firstDay: 3,
