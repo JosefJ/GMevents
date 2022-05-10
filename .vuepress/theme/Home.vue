@@ -1,9 +1,8 @@
 <template>
   <div class="home">
     <Hero />
-    <PragueCongressCenter />
+    <Venues />
     <Events />
-    <Footer />
   </div>
 </template>
 
@@ -13,10 +12,10 @@ import Button from '../components/Button.vue'
 import Hero from '../components/Home/Hero.vue'
 import Events from '../components/Home/Events.vue'
 import Footer from '../components/Footer.vue'
-import PragueCongressCenter from '../components/Home/PragueCongressCenter.vue'
+import Venues from '../components/Home/Venues.vue'
 
 export default {
-  components: { NavLink, Button, Hero, Footer, PragueCongressCenter, Events }
+  components: { NavLink, Button, Hero, Footer, Venues, Events }
 }
 </script>
 
@@ -28,7 +27,7 @@ export default {
   background-position center top
   background-repeat no-repeat
   background-size 100%
-  background-position-y 92px
+  background-position-y 50px
 
 </style>
 

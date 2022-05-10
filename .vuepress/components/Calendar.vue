@@ -7,11 +7,12 @@
 
 <template>
   <div ref="wrapper">
-    <HeroInternalPage
+    <!-- <HeroInternalPage
       title="Calendar"
-      link="https://goo.gl/forms/zYvjmpEsfeM1KpRt2"
-      linkText="Submit an Event"
-    />
+    /> -->
+    <div class="hero calendar_hero">
+      June 2022
+    </div>
 
     <table>
       <thead>
@@ -57,15 +58,13 @@ const debounce = require('debounce')
 export default {
   data: () => ({
     // First calendar day of the event (October 24)
-    firstDay: 24,
-    firstMonth: 9,
+    firstDay: 3,
+    firstMonth: 5,
     daysInFirstMonth: 31,
     // Hours without the leading zero nor trailing minutes
-    firstHour: 8,
-    lastHour: 23,
+    firstHour: 9,
+    lastHour: 24,
     dayNames: [
-      'Wednesday',
-      'Thursday',
       'Friday',
       'Saturday',
       'Sunday',
@@ -144,7 +143,7 @@ export default {
             let startDay = new Date(fm.date);
             let endDay = new Date(fm.endDate);
 
-            var duration = Math.round(Math.abs((startDay.getTime() - endDay.getTime())/(oneDay))) + 1;
+            duration = Math.round(Math.abs((startDay.getTime() - endDay.getTime())/(oneDay))) + 1;
           }
 
           for (i; i < duration; i++) {
@@ -210,9 +209,9 @@ const scrollHeaders = function () {
   if (!hero || !thead || !hours) return
 
   let heroHeight = hero.offsetHeight
-
+ 
   if (this.scrollTop >= heroHeight) {
-    thead.style.transform = `translate(0, ${this.scrollTop - heroHeight}px)`
+    thead.style.transform = `translate(0, ${this.scrollTop - heroHeight + 5}px)`
   } else {
     thead.style.transform = `translate(0, 0)`
   }
@@ -378,4 +377,11 @@ table
             span
               writing-mode vertical-rl
               transform rotate(180deg)
+
+.calendar_hero
+  font-size 2rem
+  padding 3rem
+  min-height 15rem
+  align-items flex-start
+  font-family 'Space Grotesk', sans-serif
 </style>

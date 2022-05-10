@@ -7,11 +7,16 @@
       <Button buttonText="All" to="/events/" className="btn-all"/>
     </div>
 
+    <EventsListHome />
+
   </div>
 </template>
 
 <script>
 import Button from '../Button.vue'
+import EventsListHome from '../EventsListHome.vue'
+// import DateTime from '../Event/DateTime.vue'
+// import { capitalizeWord } from '../../theme/util.js'
 
 export default {
   components: { Button },

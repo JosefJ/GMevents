@@ -8,7 +8,7 @@
 
     <div class="lane-above__box">
       <img :src="$withBase(greenDot)" alt="green dot" />
-      &nbsp;3000 attendees
+      &nbsp;1000 attendees
     </div>
 
     <div class="lane-above__box">
@@ -19,7 +19,7 @@
 
     <div class="lane-above__box">
       <img :src="$withBase(greenDot)" alt="green dot" />
-      &nbsp;Online & In-person Events
+      &nbsp;In-person Events & Parties
     </div>
 
     <div class="lane-above__box">

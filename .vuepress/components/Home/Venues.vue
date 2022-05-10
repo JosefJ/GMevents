@@ -1,33 +1,32 @@
 <template>
-  <div class="pcc">
-    <div class="pcc_info">
-      <div class="pcc_info_venues">
+  <div class="venues">
+    <div class="venues_info">
+      <div class="venues_info_tag">
         Venues
       </div>
-      <h2 class="pcc_info_title">
-        Prague Congress Center
+      <h2 class="venues_info_title">
+        Paralelni Polis
       </h2>
-      <div class="pcc_info_description">
-        Large neofunctionalist building built in 1981 which is currently the largest congress center venue in Czech Republic.
+      <div class="venues_info_description">
+        The unique crypto-only hacker base which is facilitating a discussion platform for topics related to tech, art and science.
       </div>
 
-      <div class="pcc_info_buttons">
+      <!-- <div class="venues_info_buttons">
         <button class="primary-btn">
-          <img src='./../../public/arrow.svg' alt="instagram" class="pcc_info_button_arrow_prev"/>
+          <img src='./../../public/arrow.svg' alt="instagram" class="venues_info_button_arrow_prev"/>
           prev
         </button>
 
         <button class="primary-btn">
           next
-          <img src='./../../public/arrow.svg' alt="instagram" class="pcc_info_button_arrow_next"/>
+          <img src='./../../public/arrow.svg' alt="instagram" class="venues_info_button_arrow_next"/>
         </button>
-      </div>
+      </div> -->
     </div>
 
-    <div class="pcc_image">
-      <img src="./../../public/prague_congress_center.png" height="445" width="369" alt="prague congress center" />
+    <div class="venues_image-container">
+      <img class="venues_image" src="./../../public/paralelni_polis.png" alt="prague congress center" />
     </div>
-
   </div>
 </template>
 
@@ -42,26 +41,30 @@ export default {
 <style lang="stylus">
 @import '../../theme/styles/config.styl'
 
-.pcc
+.venues
   color #fff
   display flex
   align-items center
   justify-content center
   margin 6rem 0
-  padding 0 $sidesPadding
+  flex-flow: column-reverse
+
+  &_info, 
+  &_image-container
+    height: 365px;
+    width: 100%;
+    box-sizing: border-box
 
   &_info
-    max-width: 840px
-    width: 100%
-    padding 60px
+    padding 50px $sidesPadding 0
     background-color #1A191D
 
-  &_info_venues
+  &_info_tag
     padding 5px 20px
-    background #21253359
-    color #566477
-    margin-bottom 30px
+    background #FF990059
+    color #FF9900
     width fit-content
+    border-radius 2px
 
   &_info_title
     font-size 30px
@@ -84,8 +87,14 @@ export default {
     margin-bottom: -1px
     padding-left: 3px
 
+  &_image-container
+    background-color red
+
   &_image
-    margin -15px 0 -50px -50px
+    height: 365px;
+    width: 100%;
+    object-fit: cover
+    object-position: center
 
   &_info_buttons
     display flex
@@ -103,5 +112,14 @@ export default {
   border-radius 2px
   &:hover
     background rgba(0, 255, 224, 0.6)
+
+@media(min-width: 1200px)
+  .venues
+    flex-flow: row
+
+@media(min-width: 800px)
+  .venues
+    padding 0 $sidesPadding
+
 
 </style>

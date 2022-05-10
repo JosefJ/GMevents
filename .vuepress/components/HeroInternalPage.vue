@@ -32,11 +32,13 @@ export default {
   width 100%
   min-height $internalHeroHeight
   position relative
-  background url("~/main-bg.jpg")
+  // background url("~/main-bg.jpg")
+  background url('~/matrix_cube_big.svg')
   // background-attachment fixed
   background-size cover
-  background-position center 40%
+  background-position center top
   background-repeat no-repeat
+  background-size 100%
   display flex
   flex-direction column
   align-items center
@@ -51,7 +53,7 @@ export default {
     left: 0
     width: 100%
     height: 100%
-    background-color: rgba(#000,.4)
+    // background-color: rgba(#000,.4)
   h1
     position: relative
     z-index: 2

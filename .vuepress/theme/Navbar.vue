@@ -1,6 +1,6 @@
 <template>
     <header class="navbar">
-      <LaneAbove />
+<!--      <LaneAbove />-->
       <div class="menu">
         <router-link :to="$localePath" class="home-link">
           <img class="logo" :src="$withBase(logo)" alt="Logo">
@@ -17,11 +17,10 @@
           <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia"/>
           <SearchBox v-else-if="$site.themeConfig.search !== false"/>
         </div>
-        <Button buttonText="Submit Event" to="https://goo.gl/forms/zYvjmpEsfeM1KpRt2" />
+        <Button class="menu_button-submit-event" buttonText="Submit Event" to="https://goo.gl/forms/zYvjmpEsfeM1KpRt2" />
         <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
       </div>
     </header>
-  </div>
 </template>
 
 <script>
@@ -47,12 +46,6 @@ export default {
         items: [],
         link: "/calendar/",
         text: "Calendar",
-        type: "link",
-      }, 
-      {
-        items: [],
-        link: "https://medium.com/noblocknoparty/how-blockparty-can-decrease-no-shows-at-your-next-event-5e5895f1a23f",
-        text: "Use Kickback",
         type: "link",
       }
       ]
@@ -80,7 +73,9 @@ export default {
   display flex
   align-items center
   justify-content space-between
-  height 87px
+
+  &_button-submit-event
+    display none
 
 .navbar
   line-height $navbarHeight - 1.4rem
@@ -115,4 +110,12 @@ export default {
     
     .can-hide
       display none
+
+@media (min-width: $MQMobile)
+  .menu
+    height 87px
+
+    &_button-submit-event
+      display block
+
 </style>

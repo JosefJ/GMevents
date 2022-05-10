@@ -4,13 +4,11 @@ title: Privacy Policy
 
 # Privacy Policy
 
-The pragueblockchainweek.cz website provides information about Prague Blockchain
-Week, a series of independent events organized by individuals, in order to
-promote blockchain technology.
+The gm.events website provides information about a series of independent events organized by individuals or companies.
 
 This page is used to inform website visitors regarding our policies with the
 collection, use, and disclosure of Personal Information if anyone decided to
-use our Service, the pragueblockchainweek.cz website.
+use our Service, the gm.events website.
 
 ## Information Collection and Use
 
@@ -18,7 +16,7 @@ We don’t store your data, period.
 
 ## Cookies
 
-pragueblockchainweek.cz does not use cookies to collect information.
+gm.events does not use cookies to collect information.
 
 ## Links to Other Sites
 
@@ -32,4 +30,4 @@ third-party sites or services.
 ## Contact Us
 
 If you have any questions or suggestions about our Privacy Policy, do not
-hesitate to contact us.
+hesitate to contact us contact@pwn.finance
