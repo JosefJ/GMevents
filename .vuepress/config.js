@@ -21,7 +21,7 @@ module.exports = {
       },
       {
         text: 'Submit an Event',
-        link: 'https://goo.gl/forms/zYvjmpEsfeM1KpRt2'
+        link: 'https://cf23uhv4kuq.typeform.com/to/pVgp6whd'
       }
     ],
     logo: 'logo.png',
