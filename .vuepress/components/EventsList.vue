@@ -9,7 +9,7 @@
     <div class="events--container">
       <HeroInternalPage
         title="Events"
-        link="https://goo.gl/forms/zYvjmpEsfeM1KpRt2"
+        :link="config.themeConfig.nav[2].link"
         linkText="Submit an Event"
       />
       <div class="filters">
@@ -83,6 +83,7 @@
 <script>
 import DateTime from './Event/DateTime.vue'
 import { capitalizeWord } from './../theme/util.js'
+import themeConfig from './../config.js'
 
 export default {
   components: { DateTime },
@@ -95,7 +96,8 @@ export default {
     days: [],
     filtering: false,
     // This is calculated from the transition time of the .wrapper el
-    animationDuration: 0
+    animationDuration: 0,
+    config: themeConfig
   }),
   methods: {
     setEvents () {

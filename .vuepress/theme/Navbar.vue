@@ -17,7 +17,7 @@
           <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia"/>
           <SearchBox v-else-if="$site.themeConfig.search !== false"/>
         </div>
-        <Button class="menu_button-submit-event" buttonText="Submit Event" to="https://goo.gl/forms/zYvjmpEsfeM1KpRt2" />
+        <Button class="menu_button-submit-event" buttonText="Submit Event" :to="this.config.themeConfig.nav[2].link" />
         <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
       </div>
     </header>
@@ -30,6 +30,7 @@ import SearchBox from './SearchBox.vue'
 import NavLink from './NavLink.vue'
 import Button from '../components/Button.vue'
 import LaneAbove from '../components/LaneAbove.vue'
+import themeConfig from './../config.js'
 
 export default {
   components: { SidebarButton, NavLink, SearchBox, AlgoliaSearchBox, Button, LaneAbove },
@@ -48,7 +49,8 @@ export default {
         text: "Calendar",
         type: "link",
       }
-      ]
+      ],
+      config: themeConfig
     }
   },
   computed: {
