@@ -51,7 +51,7 @@ name: UTXO.22
 synopsis:
   - UTXO.22 is an open community organised conference focused on cryptocurrencies and blockchain, which aims to be the biggest conference of its kind in the Czech republic.
     It is a two-day conference which combines fresh crypto topics without focusing on one particular blockchain. 
-  - The conference will offer more than 100 hours of talks and workshops. Thanks to the rich programme the conference can offer content both to the general public and advanced users.
+  - The conference will offer more than 100 hours of talks and workshops. Thanks to the rich programme the conference can offer content both to the general public and advanced users. Please note that most of the conference talks are held in Czech and the conference is not intended for english speakers. 
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
