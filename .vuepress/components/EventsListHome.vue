@@ -56,23 +56,6 @@
           :key="event.key"
         >
           <EventPreview :event="event"/>
-          <!-- Event's name -->
-          <!-- <h2>
-            <a :href="$withBase(event.path)">{{ event.frontmatter.name }}</a>
-          </h2> -->
-
-          <!-- Event's description -->
-          <!-- <p>{{ event.frontmatter.description }}</p> -->
-
-          <!-- Date and time -->
-          <!-- <DateTime :date="event.frontmatter.date"
-            :endDate="event.frontmatter.endDate"
-            :time="event.frontmatter.time"
-            :endTime="event.frontmatter.endTime"
-          >
-          <Badge slot="after" :text="event.frontmatter.category"/>
-          <Badge v-if="event.frontmatter.featured" slot="after" :text="'TOP'"/>
-          </DateTime> -->
         </div>
       </div>
     </div>

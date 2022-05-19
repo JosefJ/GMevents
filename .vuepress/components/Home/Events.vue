@@ -32,7 +32,7 @@ export default {
   display flex
   flex-direction column
   align-items center
-  height 100vh
+  // height 100vh
   background linear-gradient(0deg, rgba(4, 166, 148, 0.9) 23.22%, rgba(4, 145, 130, 0) 87.28%)
 
   &_content 
