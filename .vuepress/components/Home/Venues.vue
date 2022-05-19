@@ -117,9 +117,8 @@ export default {
   .venues
     flex-flow: row
 
-@media(min-width: 800px)
+@media(min-width: $MQMobile )
   .venues
-    padding 0 $sidesPadding
-
+    padding 0 $sidesPaddingDesktop
 
 </style>

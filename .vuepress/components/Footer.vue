@@ -107,8 +107,10 @@ export default {
     text-align: left;
     margin: 0.3rem 0.3rem;
 
-@media(min-width: 555px)
+@media(min-width: $MQMobile)
   .footer
+    padding 5rem $sidesPaddingDesktop
+
     &_right
       align-items flex-end
 

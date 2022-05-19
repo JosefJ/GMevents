@@ -114,6 +114,7 @@ export default {
 @media (min-width: $MQMobile)
   .menu
     height 87px
+    padding 0.1rem $sidesPaddingDesktop
 
     &_button-submit-event
       display block

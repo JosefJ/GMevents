@@ -31,7 +31,7 @@ export default {
   border-radius 3px
   padding 0 6px
   color white
-  margin-right 5px
+  // margin-right 5px
   border-color #42b983
   &.middle
     vertical-align middle
