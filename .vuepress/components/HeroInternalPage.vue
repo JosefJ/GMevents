@@ -60,7 +60,7 @@ export default {
     margin 0
     padding 0
     font-size 48px
-    max-width $contentWidth
+    max-width $pageContentMaxWidth
     padding 0 1.5rem
   .action-button
     z-index: 2

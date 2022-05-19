@@ -1,22 +1,22 @@
 <template>
   <div class="events-home">
-    <div class="events-home_title-row">
-      <div class="events-home_title">
-        Events
+    <div class="events-home_content">
+      <div class="events-home_title-row">
+        <div class="events-home_title">
+          Events
+        </div>
+        <Button buttonText="All" to="/events/" className="btn-all"/>
       </div>
-      <Button buttonText="All" to="/events/" className="btn-all"/>
+
+      <EventsListHome />
+
     </div>
-
-    <EventsListHome />
-
   </div>
 </template>
 
 <script>
 import Button from '../Button.vue'
 import EventsListHome from '../EventsListHome.vue'
-// import DateTime from '../Event/DateTime.vue'
-// import { capitalizeWord } from '../../theme/util.js'
 
 export default {
   components: { Button },
@@ -32,13 +32,17 @@ export default {
   display flex
   flex-direction column
   align-items center
-  height 100vh
+  // height 100vh
   background linear-gradient(0deg, rgba(4, 166, 148, 0.9) 23.22%, rgba(4, 145, 130, 0) 87.28%)
 
+  &_content 
+    max-width $pageContentMaxWidth
+    width: 100%;
+  
   &_title-row
     display flex
     justify-content space-between
-    margin 3rem 0
+    margin 3rem 0 6rem
     width 100%
 
   &_title
@@ -66,6 +70,9 @@ export default {
   &:hover 
     background: rgba(0, 255, 224, 0.6)
 
+@media(min-width: $MQMobile)
+  .events-home
+    padding 0 $sidesPaddingDesktop
 
 </style>
 
