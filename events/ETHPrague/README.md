@@ -65,7 +65,7 @@ endDate: 2022-06-12
 # Set the time in 24 hours format, surrounded by quotes.
 # _Only_ the starting time!
 # Example: '18:00'
-time: '09:30'
+time: '10:00'
 # Time when the event ends. Can be left empty.
 endTime: '18:00'
 
@@ -74,7 +74,7 @@ tickets: https://ethprague.com/
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (Euro symbol will be used).
-price: 0
+price: 222
 
 # The name of the venue where the event will be held. Can be left empty.
 venue: Paralelni Polis
