@@ -31,9 +31,9 @@
       <div class="footer_right_powered-by">
         Powered by
       </div>
-      <div>
+      <a href="https://pwn.xyz/" target="_blank">
         <img src='./../public/pwn_logo.svg' alt="pwn logo" height="35" width="110" />
-      </div>
+      </a>
 
     </div>
   </div>
