@@ -61,7 +61,7 @@ export default {
       return this.algolia && this.algolia.apiKey && this.algolia.indexName
     },
     logo () {
-      return require('./../public/logo_prague_blockchain_week.svg')
+      return require('./../public/logo_gm_events.svg')
     }
   }
 }
