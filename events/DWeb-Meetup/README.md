@@ -51,7 +51,7 @@ name: DWeb Meetup: Decentralised Storage, Swarm and Web 3.0
 synopsis:
   - After a bit of COVID hibernation, I would like to restart DWeb Prague meetups a bit. With the upcoming ETHPrague there will be a lot of interesting people coming to the town, one of them is Vojtech Simetka from Swarm Foundation, which develop a decentralized storage protocol Swarm that has very tight roots with Ethereum itself. He will give a talk about "Decentralised Storage, Swarm and Web 3.0". The talk will be in English.
   - There will be pizza and beverages provided thanks to the generous support from Swarm Foundation. After the talk, there will be an unofficial sit-down with several members from the Swarm Foundation in some pub nearby.
-  - The talk abstract:
+  - The talk abstract
   - Over the past few years, a lot of the data on the internet has moved from self-hosted servers into cloud storage. Chances are, most of the services you use daily, store your data in data centers owned by Amazon, Apple, Google, or Microsoft. Cryptocurrency enthusiasts surely heard the phrase "not your keys, not your coins". We'd like to extend to "not your storage, not your data". The Web 3.0 movement is trying to change this. By storing our data in decentralized storage we can reduce the risk of losing access to them (e.g. through de-platforming or censorship) and it allows new economic models around data ownership. In this talk, we will explain what is decentralised storage, explain how the Swarm networks work, and what is Web 3.0.
 
 
