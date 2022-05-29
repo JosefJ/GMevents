@@ -9,8 +9,7 @@ This repository contains the code for the website, which can be reached at
 [https://gm.events](https://gm.events).
 
 ## Contributing
-
-Please read the
-[Wiki](https://github.com/josefj/gmevents/wiki/Contributing)
-for instructions on how to add an event. Same process applies to modify the
-theme, functionality, or any other part of the website.
+For submitting new events please do either of these:
+1) create a PR 
+2) create an issue 
+3) submit a form: https://cf23uhv4kuq.typeform.com/to/pVgp6whd
