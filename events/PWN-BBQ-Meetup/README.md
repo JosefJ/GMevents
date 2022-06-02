@@ -49,7 +49,7 @@ name: PWN bbq meetup
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
-  - Join us over some tasty bbq in Stromovka park in Prague 7. We'll meet at Grill point number 1 (it's between Bistro NO.2 and the parkour playground), we'll grill some food, have some drinks and network. If we'd like to continue till late night, there is plenty of bars nearby. In case of bad weather this event won't happen.
+  - Join us over some tasty bbq in Stromovka park in Prague 7. We'll meet at Grill point number 1 (it's between Bistro NO.2 and the parkour playground), we'll grill some food, have some drinks and network. Please byob & byof, PWN will provide you with grills. If we'd like to continue till late night, there is plenty of bars nearby. In case of bad weather this event won't happen.
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
