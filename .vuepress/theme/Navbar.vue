@@ -48,6 +48,12 @@ export default {
         link: "/calendar/",
         text: "Calendar",
         type: "link",
+      },
+      {
+        items: [],
+        link: "https://ethprague.com/",
+        text: "ETHPrague",
+        type: "link",
       }
       ],
       config: themeConfig
