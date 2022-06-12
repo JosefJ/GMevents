@@ -77,7 +77,7 @@ venue: Stalin Monument
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
-address: Letenské sady Praha 7, 170 00 Praha 7
+address: 50.094650, 14.415841
 
 # The category of the event. Valid options:
 # - conference
