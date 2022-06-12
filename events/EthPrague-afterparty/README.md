@@ -49,7 +49,7 @@ name: ETHPrague afterparty at Stalin monument
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
-  - GM everyone! Let’s wrap up ETHPrague at Stalin monument with some nice vibes from local DJs MiniJointPeter, Blofeld, Anthró and ThM. Take your dancing shoes with you and be prepared for some electronic music. Booze is provided by PWN, but don’t forget to take your ETHPrague wristband with you to show it at the bar. See you there!
+  - GM everyone! Let’s wrap up ETHPrague at Stalin monument with some nice vibes from local DJs MiniJointPeter, Blofeld, Anthró and ThM. Take your dancing shoes with you and be prepared for some electronic music. Booze is provided by PWN, but don’t forget to take your ETHPrague wristband with you to show it at the bar. See you there! ![map](./map.png)
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
