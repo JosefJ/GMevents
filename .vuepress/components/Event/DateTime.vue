@@ -1,22 +1,28 @@
 <!--
   Created by: Carlos E. Salazar <ce.salazar@gmail.com>
+  Edited by: Jan Miksik <https://github.com/jan-miksik>
   Repository: https://github.com/cesalazar/berlinblockchainweek
   License: MIT
 -->
 
 <template>
-  <p class="date-time">
-    <slot name="before"></slot>
+  <p class="date-time" v-if="!isOneLine">
+    <slot name="before" />
     {{ datetime }} <br />
     {{monthToView}} <br />
     {{timeToView}}
-    <slot name="after"></slot>
+    <slot name="after" />
   </p>
+  <div v-else class="date-time__one-line">
+    <slot name="before" />
+    {{timeToView}} {{ datetime }} {{monthToView}} {{yearToView}}
+    <slot name="after" />
+  </div>
 </template>
-
+text-align: center;
 <script>
 export default {
-  props: ['date', 'endDate', 'time', 'endTime'],
+  props: ['date', 'endDate', 'time', 'endTime', 'isOneLine'],
   data: () => ({
     dayNames: [
       'Sunday',
@@ -43,6 +49,7 @@ export default {
     ],
     timeToView: "",
     monthToView: "",
+    yearToView: "",
   }),
   computed: {
     datetime () {
@@ -53,6 +60,7 @@ export default {
       // Set the names for both the day and the month
       let day = this.dayNames[date.getUTCDay()]
       let month = this.monthNames[date.getUTCMonth()]
+      let year = date.getUTCFullYear()
 
       // The full date
       let datetime = `${day}, ${date.getUTCDate()}`
@@ -71,6 +79,7 @@ export default {
 
       // datetime += ` ${month}`
       this.monthToView = month
+      this.yearToView = year
 
       // Starting time
       let time = this.time || this.$page.frontmatter.time
@@ -86,12 +95,23 @@ export default {
 }
 </script>
 <style scoped lang="stylus">
+@import './../../theme/styles/config.styl'
+
 .date-time
-  font-family 'Space Grotesk', sans-serif
+  font-family $primaryFontFamily
   white-space: nowrap
   // font-size: 24px;
   font-size clamp(1.2rem, calc(-0.875rem + 3.333vw), 1.5rem)
   font-weight: 600;
   line-height: clamp(25px, calc(-0.875rem + 4.333vw), 32px);
+
+.date-time__one-line
+  font-family $primaryFontFamily
+  font-size clamp(1.2rem, calc(-0.875rem + 3.333vw), 1.5rem)
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+
 
 </style>

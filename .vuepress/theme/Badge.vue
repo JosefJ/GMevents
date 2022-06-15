@@ -21,26 +21,28 @@ export default {
 </script>
 
 <style lang="stylus">
-@import '../../default-theme/styles/config.styl'
+@import './styles/config.styl'
 
 .badge
   display inline-block
-  font-size 14px
   height 18px
+  // font-size 14px
+  font-size 0.9em !important
+  color $primaryAccentColor
   line-height 18px
+  padding 0.3em 0.6em
   border-radius 3px
-  padding 0 6px
-  color white
-  // margin-right 5px
-  border-color #42b983
+  border 1px solid $primaryAccentColor
+  background transparent !important
   &.middle
     vertical-align middle
   &.top
     vertical-align top
   &.tip, &.green
-    border-color #42b983
+    border-color $primaryAccentColor
   &.error
     border-color #DA5961 //#f66
   &.warning, &.warn, &.yellow
     border-color darken(#ffe564, 35%)
+
 </style>

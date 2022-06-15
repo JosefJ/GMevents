@@ -199,7 +199,7 @@ function addDays (date, days) {
     left 0
   .events-title
     padding-top 2.5rem
-    font-family 'Space Grotesk', sans-serif
+    font-family $primaryFontFamily
     font-size 30px
     font-weight 600
     line-height 38px

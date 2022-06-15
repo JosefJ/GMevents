@@ -58,6 +58,8 @@ export default {
 </script>
 
 <style scoped lang="stylus">
+@require './../theme/styles/config.styl'
+
 .event-preview
   display flex
   flex-direction: column
@@ -83,7 +85,7 @@ export default {
     text-transform uppercase
     font-size clamp(32px, calc(-0.875rem + 6.333vw), 38px)
     font-weight 600
-    font-family 'Space Grotesk', sans-serif
+    font-family $primaryFontFamily
     line-height 50px
     margin: 2.5rem 0 1rem
     padding 0

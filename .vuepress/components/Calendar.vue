@@ -383,5 +383,5 @@ table
   padding 3rem
   min-height 15rem
   align-items flex-start
-  font-family 'Space Grotesk', sans-serif
+  font-family $primaryFontFamily
 </style>

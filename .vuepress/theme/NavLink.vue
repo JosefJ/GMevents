@@ -1,14 +1,14 @@
 <template>
   <router-link
     v-if="!isExternal(link)"
-    :class="className"
+    :class="[className, extensionalClass]"
     :to="link"
     :exact="exact"
   >{{ item.text }}</router-link>
   <a
     v-else
     :href="link"
-    :class="[className, 'external']"
+    :class="[className, 'external', extensionalClass]"
     :target="isMailto(link) || isTel(link) ? null : '_blank'"
     :rel="isMailto(link) || isTel(link) ? null : 'noopener noreferrer'"
   >
@@ -30,6 +30,10 @@ export default {
       type: String,
       default: "nav-link"
     },
+    extensionalClass: {
+      type: String,
+      default: ""
+    }
   },
   computed: {
     link () {

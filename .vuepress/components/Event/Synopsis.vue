@@ -66,6 +66,8 @@ const replaceLink = function (text) {
 </script>
 
 <style lang="stylus">
+@import './../../theme/styles/config.styl'
+
 .synopsis--content
   a
     text-decoration none !important
@@ -74,4 +76,21 @@ const replaceLink = function (text) {
     text-shadow 2px 2px 2px #000
     &:hover
       border-bottom 1px solid
+  p
+    font-family: $secondaryFontFamily
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  p:first-child
+    font-family: $primaryFontFamily
+    // font-size: 30px;
+    font-size: clamp(1.4rem, calc(-0.875rem + 8.333vw), 1.75rem)
+    font-weight: 600;
+    line-height: clamp(1.6rem, calc(-0.875rem + 8.333vw), 2.2rem)
+    letter-spacing: 0em;
+    text-align: left;
+
 </style>
