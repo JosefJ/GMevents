@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavLink :item="item" :className="className"/>
+    <NavLink :item="item" :className="className" :extensionalClass="extensionalClass"/>
   </div>
 </template>
 
@@ -14,6 +14,10 @@ export default {
     className: {
       type: String,
       default: "primary-btn"
+    },
+    extensionalClass: {
+      type: String,
+      default: ""
     },
     buttonText: {
       type: String,
@@ -50,6 +54,8 @@ export default {
   border-radius: 2px;
   color: #69E2D5;
   font-family: 'Oxygen Mono', monospace;
+  text-decoration: none !important;
+  white-space: nowrap;
 }
 
 .primary-btn:hover {

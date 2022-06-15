@@ -1,14 +1,18 @@
 <!--
   Created by: Carlos E. Salazar <ce.salazar@gmail.com>
+  Edited by: Jan Miksik <https://github.com/jan-miksik>
   Repository: https://github.com/cesalazar/berlinblockchainweek
   License: MIT
 -->
 
 <template>
-  <div>
-    <HeroInternalPage
-      :title="data.name"
-    />
+  <div class="content__container">
+    <div class="content__button-back-to-events-container">
+      <Button buttonText="Back to events" to="/events/" extensionalClass="content__button-back-to-events"/>
+    </div>
+
+    <h1 class="content__title">{{ data.name }}</h1>
+    <DateTime :isOneLine="true"/>
 
     <div class="category">
       <Badge :text="capitalizeWord(data.category)"/>
@@ -21,18 +25,13 @@
       <Speakers/>
     </div>
 
-    <div v-if="data.date">
-      <h2>Date</h2>
-      <DateTime/>
-    </div>
-
-    <div v-if="data.venue || data.address">
+    <div class="content__venue"v-if="data.venue || data.address">
       <h2 v-if="Array.isArray(data.address)">Venues</h2>
       <h2 v-else>Venue</h2>
       <MapLink/>
     </div>
 
-    <div v-if="data.tickets">
+    <div class="content__more-info"v-if="data.tickets">
       <h2>More information</h2>
       <TicketsLink/>
     </div>
@@ -46,6 +45,8 @@ import Speakers from './Speakers'
 import Synopsis from './Synopsis'
 import TicketsLink from './TicketsLink'
 import { capitalizeWord } from './../../theme/util.js'
+import Button from '../Button.vue'
+import Badge from '../../theme/Badge.vue'
 const debounce = require('debounce')
 
 export default {
@@ -87,7 +88,7 @@ const setContentOffset = function () {
 }
 </script>
 
-<style scoped lang="stylus">
+<style lang="stylus">
 @import './../../theme/styles/config.styl'
 
 .hero
@@ -100,8 +101,60 @@ const setContentOffset = function () {
   margin-right 0 !important
 
 .category
-  text-align right
-  margin-top $internalHeroHeight + $navbarHeight
+  text-align center
+  margin 1.5rem 0 3.5rem
+
 h2
-  margin-top 1.5em
+  font-family: $primaryFontFamily
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin 0
+  border-bottom none
+
+.content__container
+  max-width 620px
+  margin auto
+
+.content__button-back-to-events-container
+  display flex
+  justify-content center
+  margin 10rem 0 3.5rem
+
+.content__button-back-to-events
+  padding 8px 14px !important
+
+.content__title
+  font-family $primaryFontFamily
+  font-size clamp(2rem, calc(-0.875rem + 8.333vw), 3.5rem)
+  font-weight 500
+  text-align center
+  text-transform uppercase
+  margin-bottom 1.5rem
+
+
+.content__venue
+  display: flex;
+  padding 0.7rem 0;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  margin: 5rem 0 1.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+  gap 1rem
+  
+  p
+    margin 0
+
+.content__more-info
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+  flex-wrap wrap
+  gap 1rem
+
+
 </style>
