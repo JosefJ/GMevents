@@ -28,9 +28,9 @@ export default {
   height 18px
   // font-size 14px
   font-size 0.9em !important
-  color $primaryAccentColor
+  color $primaryAccentColor !important
   line-height 18px
-  padding 0.3em 0.6em
+  padding 0.3em 0.6em !important
   border-radius 3px
   border 1px solid $primaryAccentColor
   background transparent !important
