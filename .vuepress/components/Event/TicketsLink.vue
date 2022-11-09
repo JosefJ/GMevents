@@ -6,16 +6,16 @@
 -->
 
 <template>
-  <div class="ticket--container">
+  <div :class="['ticket--container', {'ticket--container--vertical': isVertical}]">
     <!-- Ticket price -->
     <span class="ticket--price">
       Cost:&nbsp;{{ price }}
     </span>
 
     <!-- Link to ticket sale -->
-    <span v-if="$page.frontmatter.tickets" class="ticket--website">
+    <span v-if="tickets" class="ticket--website">
       <ExternalLink
-        :url="$page.frontmatter.tickets"
+        :url="tickets"
         caption="Website"
         indicator="true"
       />
@@ -28,14 +28,26 @@ import ExternalLink from '../Utils/ExternalLink'
 
 export default {
   components: { ExternalLink },
+  props: {
+    event: {
+      type: Object,
+      default: null,
+    },
+  },
   computed: {
     price () {
-      let price = this.$page.frontmatter.price
+      let price = (this.event && this.event.frontmatter.price) || this.$page.frontmatter.price
       if (!price || price === 0) {
         return 'Free'
       }
       price += ' €'
       return price
+    },
+    tickets () {
+      return this.event && this.event.frontmatter.tickets || this.$page.frontmatter.tickets
+    },
+    isVertical () {
+      return !this.event
     }
   }
 }
@@ -45,9 +57,12 @@ export default {
 @import './../../theme/styles/config.styl'
 
 .ticket--container
-  gap: 0.3rem
+  gap: 0.7rem
   display: flex
-  flex-direction: column
+
+  &--vertical
+    flex-direction: column
+    gap: 0.3rem
 
 .ticket--price
   // margin-right 1em

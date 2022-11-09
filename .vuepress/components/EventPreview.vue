@@ -18,20 +18,23 @@
     </div>
 
     <div class="event-preview_right-column">
-      <div class="event-preview_content">
-        <!-- Event's name -->
-        <h2 class="event-preview_name">
-          <a class="event-preview_name-link":href="$withBase(event.path)">{{ event.frontmatter.name }}</a>
-        </h2>
-    
-        <!-- Event's description -->
-        <p class="event-preview_description" v-if="isMaximazed" >{{ event.frontmatter.description }}</p>
-      </div>
+      <div class="event-preview_right-column-main-content">
+        <div class="event-preview_content">
+          <!-- Event's name -->
+          <h2 class="event-preview_name">
+            <a class="event-preview_name-link":href="$withBase(event.path)">{{ event.frontmatter.name }}</a>
+          </h2>
+      
+          <!-- Event's description -->
+          <p class="event-preview_description" v-if="isMaximazed" >{{ event.frontmatter.description }}</p>
+        </div>
 
-      <div class="event-preview_toggle-description-visibility--desktop">
-        <img v-if="isMaximazed === false" height="35" width="35" src="./../public/plus.svg" alt="open" @click="isMaximazed = true"/>
-        <img v-else  src="./../public/minus.svg" height="35"  width="35" alt="close" @click="isMaximazed = false"/>
+        <div class="event-preview_toggle-description-visibility--desktop">
+          <img v-if="isMaximazed === false" height="35" width="35" src="./../public/plus.svg" alt="open" @click="isMaximazed = true"/>
+          <img v-else  src="./../public/minus.svg" height="35"  width="35" alt="close" @click="isMaximazed = false"/>
+        </div>
       </div>
+      <TicketsLink :event="event"/>
     </div>
 
     
@@ -40,8 +43,10 @@
 
 <script lang="ts">
 import DateTime from './Event/DateTime.vue'
+import TicketsLink from './Event/TicketsLink.vue'
+import Badge from '../theme/Badge.vue'
 export default {
-  components: { DateTime },
+  components: { DateTime, TicketsLink, Badge },
   name: "Button",
   props: {
     event: {
@@ -96,6 +101,11 @@ export default {
 
   &_right-column
     display flex
+    flex-direction column
+
+  &_right-column-main-content
+    display flex
+
 
   &_description
     margin-top 0
