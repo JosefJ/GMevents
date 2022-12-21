@@ -132,4 +132,8 @@ export default {
   // .nav-item > a
   //   &:hover, &.router-link-active
   //     border-bottom 1px $accentColor
+
+  .nav-link
+    &:hover, &.router-link-active
+      color $primaryAccentColor
 </style>
