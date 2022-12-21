@@ -2,7 +2,7 @@
   <div class="venues">
     <div class="venues_info">
       <div class="venues_info_tag">
-        Venues
+        Venue
       </div>
       <h2 class="venues_info_title">
         Paralelni Polis
@@ -31,11 +31,11 @@
 </template>
 
 <script>
-import Button from '../Button.vue'
+import Button from "../Button.vue";
 
 export default {
   components: { Button },
-}
+};
 </script>
 
 <style lang="stylus">
