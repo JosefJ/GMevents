@@ -71,6 +71,7 @@ export default {
     font-weight bold
     margin-bottom 5px
     border-bottom none
+    margin-top 12px
 
   &_info_description
     font-size 16px
