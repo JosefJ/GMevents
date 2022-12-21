@@ -21,14 +21,6 @@
           <span>All</span>
         </label>
       </div>
-      <div>
-        <label>
-          <input class="hidden-radio" name="category" type="radio" value="Top"
-            @click="filterEvents('', true)"
-          />
-          <span>TOP</span>
-        </label>
-      </div>
       <div v-for="category in categories">
         <label>
           <input class="hidden-radio" name="category" type="radio"
