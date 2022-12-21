@@ -26,6 +26,22 @@
     
         <!-- Event's description -->
         <p class="event-preview_description" v-if="isMaximazed" >{{ event.frontmatter.description }}</p>
+        
+        <div class="ticket--container">
+        <!-- Ticket price -->
+        <span class="ticket--price">
+          Cost:&nbsp;{{ price(event) }}
+        </span>
+
+        <!-- Link to ticket sale -->
+        <span v-if="event.frontmatter.tickets" class="ticket--website">
+          <ExternalLink
+            :url="event.frontmatter.tickets"
+            caption="Website"
+            indicator="true"
+          />
+        </span>
+        </div>
       </div>
 
       <div class="event-preview_toggle-description-visibility--desktop">
@@ -40,8 +56,10 @@
 
 <script lang="ts">
 import DateTime from './Event/DateTime.vue'
+import ExternalLink from './Utils/ExternalLink.vue'
+
 export default {
-  components: { DateTime },
+  components: { DateTime, ExternalLink },
   name: "Button",
   props: {
     event: {
@@ -52,6 +70,14 @@ export default {
   data () {
     return {
       isMaximazed: false,
+      price: (event) =>{
+        let price = event.frontmatter.price
+        if (!price || price === 0) {
+          return 'Free'
+        }
+        price += ' €'
+        return price
+      }
     }
   }
 };
@@ -116,5 +142,17 @@ export default {
 
     &_name
       margin: 0.7rem 0 1.5rem 0
+
+    .ticket--container
+      gap: 0.3rem
+      display: flex
+      flex-direction: column
+
+    .ticket--price
+      // margin-right 1em
+
+    .ticket--website
+      a
+        color $primaryAccentColor
 </style>
 
