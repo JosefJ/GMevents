@@ -8,7 +8,7 @@
 <!--        <a href="#" class="footer_left_socials_link">-->
 <!--          <img src='./../public/instagram.svg' alt="instagram" />-->
 <!--        </a>-->
-        <a href="https://twitter.com/ethprague" class="footer_left_socials_link">
+        <a href="https://twitter.com/pwndao" class="footer_left_socials_link">
           <img src='./../public/twitter.svg' alt="twitter" />
         </a>
       </div>
@@ -20,7 +20,7 @@
         </span>
       </div>
       <div>
-        2022 PWN AG
+        {{ year }} PWN FOUNDATION
       </div>
     </div>
 
@@ -40,17 +40,19 @@
 </template>
 
 <script>
-
 export default {
-  data () {
+  data() {
     return {
-      footer: [{
-        url: '/legal/privacy-policy/', 
-        text: 'Privacy policy'
-        }]
-      }
+      footer: [
+        {
+          url: "/legal/privacy-policy/",
+          text: "Privacy policy",
+        },
+      ],
+      year: new Date().getUTCFullYear(),
+    };
   },
-}
+};
 </script>
 
 <style lang="stylus">
@@ -84,7 +86,7 @@ export default {
 
   &_left_link
     color #fff
-    border-bottom #05CFB959 1px solid
+    border-bottom $primaryAccentColor 1px solid
     font-size 20px
     padding-bottom 2px
 
@@ -118,8 +120,3 @@ export default {
       margin: 0.3rem 1.3rem;
 
 </style>
-
-
-
-
-

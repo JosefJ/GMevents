@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import NavLink from '../theme/NavLink.vue'
+import NavLink from "../theme/NavLink.vue";
 
 export default {
   components: { NavLink },
@@ -13,11 +13,11 @@ export default {
   props: {
     className: {
       type: String,
-      default: "primary-btn"
+      default: "primary-btn",
     },
     extensionalClass: {
       type: String,
-      default: ""
+      default: "",
     },
     buttonText: {
       type: String,
@@ -25,10 +25,10 @@ export default {
     },
     to: {
       type: String,
-      default: '',
+      default: "",
     },
   },
-  data () {
+  data() {
     return {
       item: {
         items: [],
@@ -36,7 +36,7 @@ export default {
         text: this.buttonText,
         type: "link",
       },
-    }
+    };
   },
 };
 </script>
@@ -47,19 +47,18 @@ export default {
 }
 
 .primary-btn {
-  background: rgba(0, 255, 224, 0.35);
+  background: rgba(primaryAccentColor, 0.35);
   padding: 15px 24px;
   cursor: pointer;
   line-height: 18px;
   border-radius: 2px;
-  color: #69E2D5;
-  font-family: 'Oxygen Mono', monospace;
+  color: accentColor;
+  font-family: "Oxygen Mono", monospace;
   text-decoration: none !important;
   white-space: nowrap;
 }
 
 .primary-btn:hover {
-  background: rgba(0, 255, 224, 0.6);
+  background: rgba(primaryAccentColor, 0.6);
 }
-
 </style>

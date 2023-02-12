@@ -1,21 +1,37 @@
 <template>
-  <div class="hero-main">
+  <div v-if="config.layout === 1" class="hero-main">
     <div class="hero-main_headline-date">
-      3. June - 12. June 2022
+      {{ subheading }}
     </div>
       <div class="hero-main_headline">
-        GM PRAGUE 2022
+      {{ heading }}
     </div>
     <Button buttonText="See Events" to="/events/" />
+  </div>
+
+  <div v-else-if="config.layout === 0" class="hero-main">
+    <div class="hero-main_headline">
+      {{ heading }}
+    </div>
+    <div class="hero-main_headline-date">
+      {{ subheading }}
+    </div>
+    <Button class="hero-main_button" buttonText="Submit Event" :to="this.config.sumbitEventLink" />
   </div>
 </template>
 
 <script>
-import Button from '../Button.vue'
+import config from "../../config";
+import Button from "../Button.vue";
 
 export default {
   components: { Button },
-}
+  data: () => ({
+    heading: config.heading,
+    subheading: config.subHeading,
+    config: config,
+  }),
+};
 </script>
 
 <style lang="stylus">
@@ -41,11 +57,6 @@ export default {
     max-width 55rem
     margin-bottom 2rem
 
+  &_button
+    padding-top 3rem
 </style>
-
-
-
-
-
-
-

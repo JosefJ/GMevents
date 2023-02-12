@@ -15,12 +15,12 @@
 </template>
 
 <script>
-import Button from '../Button.vue'
-import EventsListHome from '../EventsListHome.vue'
+import Button from "../Button.vue";
+import EventsListHome from "../EventsListHome.vue";
 
 export default {
   components: { Button },
-}
+};
 </script>
 
 <style lang="stylus">
@@ -58,27 +58,20 @@ export default {
     margin-bottom 2rem
 
 .btn-all 
-  background rgba(0, 255, 224, 0.35)
+  background rgba($primaryAccentColor, 0.35)
   padding 5px 10px
   cursor pointer
   line-height 18px
   border-radius 2px
-  border 1px solid rgba(5, 207, 185, 0.35);
-  color #69E2D5
+  border 1px solid rgba($accentColor, 0.35);
+  color $accentColor
   font-family 'Oxygen Mono', monospace
 
   &:hover 
-    background: rgba(0, 255, 224, 0.6)
+    background: rgba($primaryAccentColor, 0.6)
 
 @media(min-width: $MQMobile)
   .events-home
     padding 0 $sidesPaddingDesktop
 
 </style>
-
-
-
-
-
-
-

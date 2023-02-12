@@ -1,30 +1,65 @@
 module.exports = {
-  // Use the name of the repo if the content is served from GitHub Pages
-  // base: '/PragueBlockchainWeek/',
-  // Leave the base as '/' if serving the content from a custom domain
-  base: '/',
-  title: 'Prague GM Events',
+  base: "/",
+  title: "Prague GM Events",
+  heading: "GM Prague 2023",
+  subHeading: "1. January - 10. January 2023",
+  calendarHeading: "January 2023",
+  sumbitEventLink: "https://pwn.xyz/",
+  startDate: {
+    day: 1,
+    month: 1,
+    year: 2023,
+  },
+  endDate: {
+    day: 10,
+    month: 1,
+    year: 2023,
+  },
+  daysInFirstMonth: 31,
+  startHour: 9,
+  endHour: 22,
+  duarationInDays: 1,
+  dayNames: ["Sunday"],
+  layout: 1, // 0 - banner layout, 1 - venue layout
+  bannerPath: "logo_gm_events.svg", // only if banner layout
+  venues: [
+    {
+      name: "Paralelni Polis",
+      desc: "yay",
+      path: "logo_gm_events.svg",
+    },
+  ], // only if venue layout
   head: [
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['link', { rel: 'icon', href: '/logo-black.png' }],
-    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+    ["link", { rel: "manifest", href: "/manifest.json" }],
+    ["link", { rel: "icon", href: "./logo_gm_events.svg" }],
+    [
+      "meta",
+      {
+        name: "viewport",
+        content: "width=device-width,initial-scale=1,user-scalable=no",
+      },
+    ],
   ],
   themeConfig: {
     nav: [
       {
-        text: 'Events',
-        link: '/events/'
+        text: "Home",
+        link: "/",
       },
       {
-        text: 'Calendar',
-        link: '/calendar/'
+        text: "Events",
+        link: "/events/",
       },
       {
-        text: 'Submit an Event',
-        link: 'https://cf23uhv4kuq.typeform.com/to/pVgp6whd'
-      }
+        text: "Calendar",
+        link: "/calendar/",
+      },
+      {
+        text: "PWN",
+        link: "https://pwn.xyz/",
+      },
     ],
-    logo: 'logo.png',
+    logo: "logo_gm_events.svg",
     search: false,
     // Assumes GitHub. Can also be a full GitLab url.
     // repo: 'JosefJ/PragueBlockchainWeek',
@@ -37,10 +72,10 @@ module.exports = {
     // if your docs are not at the root of the repo:
     // docsDir: 'docs',
     // if your docs are in a specific branch (defaults to 'master'):
-    docsBranch: 'master',
+    docsBranch: "master",
     // defaults to false, set to true to enable
-    editLinks: true
+    editLinks: true,
     // custom text for edit link. Defaults to "Edit this page"
     // editLinkText: 'Help us improve this page!'
-  }
-}
+  },
+};

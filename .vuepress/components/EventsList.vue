@@ -21,14 +21,6 @@
           <span>All</span>
         </label>
       </div>
-      <div>
-        <label>
-          <input class="hidden-radio" name="category" type="radio" value="Top"
-            @click="filterEvents('', true)"
-          />
-          <span>TOP</span>
-        </label>
-      </div>
       <div v-for="category in categories">
         <label>
           <input class="hidden-radio" name="category" type="radio"
@@ -64,128 +56,143 @@
 </template>
 
 <script>
-import DateTime from './Event/DateTime.vue'
-import EventPreview from './EventPreview.vue'
-import { capitalizeWord } from './../theme/util.js'
+import DateTime from "./Event/DateTime.vue";
+import EventPreview from "./EventPreview.vue";
+import { capitalizeWord } from "./../theme/util.js";
+import config from "./../config";
 
 export default {
   name: "EventsListHome",
   components: { DateTime },
   data: () => ({
-    firstDay: new Date('2022-06-03'),
-    duration: 12,
+    firstDay: new Date(
+      config.startDate.year,
+      config.startDate.month,
+      config.startDate.day
+    ),
+    duration: config.duarationInDays,
     descending: false,
     categories: [],
     events: [],
     days: [],
     filtering: false,
     // This is calculated from the transition time of the .wrapper el
-    animationDuration: 0
+    animationDuration: 0,
   }),
   methods: {
-    setEvents () {
-      let events = this.$site.pages.map(event => {
-        let eventName = event.frontmatter.name
-        if (eventName && eventName !== 'Sample Template') {
-          let category = capitalizeWord(event.frontmatter.category)
-          event.frontmatter.category = category
-          this.setFilter(category)
-          event.day = setEventDay(event.frontmatter.date)
-          return event
+    setEvents() {
+      let events = this.$site.pages.map((event) => {
+        let eventName = event.frontmatter.name;
+        if (eventName && eventName !== "Sample Template") {
+          let category = capitalizeWord(event.frontmatter.category);
+          event.frontmatter.category = category;
+          this.setFilter(category);
+          event.day = setEventDay(event.frontmatter.date);
+          return event;
         }
-      })
+      });
       // Remove nulls
-      events = events.filter(event => event)
+      events = events.filter((event) => event);
       // Sort by date
-      events = events.sort((a, b) => a.day - b.day)
-      this.events = events
+      events = events.sort((a, b) => a.day - b.day);
+      this.events = events;
     },
-    setFilter (category) {
-      let categories = this.categories
+    setFilter(category) {
+      let categories = this.categories;
       if (categories.indexOf(category) === -1) {
-        categories.push(category)
+        categories.push(category);
         categories.sort((a, b) => {
-          if (a < b) return -1
-          if (a > b) return 1
-          return 0
-        })
+          if (a < b) return -1;
+          if (a > b) return 1;
+          return 0;
+        });
       }
     },
-    filterEvents (category, featured) {
-      this.animateContent()
+    filterEvents(category, featured) {
+      this.animateContent();
       // Wait for the animation hiding the content to finish
       setTimeout(() => {
-        this.setEvents()
-        if (category !== 'All') {
+        this.setEvents();
+        if (category !== "All") {
           if (featured) {
-            this.events = this.events.filter(event => {
-              return (event.frontmatter.category === category || category == '') && event.frontmatter.featured === true
-            })
+            this.events = this.events.filter((event) => {
+              return (
+                (event.frontmatter.category === category || category == "") &&
+                event.frontmatter.featured === true
+              );
+            });
           } else {
-            this.events = this.events.filter(event => {
-              return event.frontmatter.category === category
-            })
+            this.events = this.events.filter((event) => {
+              return event.frontmatter.category === category;
+            });
           }
         }
-        this.days = []
-        this.setDays()
-        if (this.descending) this.days.reverse()
-      }, this.animationDuration)
+        this.days = [];
+        this.setDays();
+        if (this.descending) this.days.reverse();
+      }, this.animationDuration);
     },
-    reverseDates () {
-      this.animateContent()
+    reverseDates() {
+      this.animateContent();
       // Wait for the animation hiding the content to finish
       setTimeout(() => {
-        this.descending = !this.descending
-        this.days.reverse()
-      }, this.animationDuration)
+        this.descending = !this.descending;
+        this.days.reverse();
+      }, this.animationDuration);
     },
-    setDays () {
-      let nextDay = ''
+    setDays() {
+      let nextDay = "";
       for (let i = 0; i < this.duration; i++) {
-        nextDay = addDays(this.firstDay, i)
-        nextDay = nextDay.toJSON()
-        this.days.push(nextDay)
-        this.removeEmptyDay(nextDay)
+        nextDay = addDays(this.firstDay, i);
+        nextDay = nextDay.toJSON();
+        this.days.push(nextDay);
+        this.removeEmptyDay(nextDay);
       }
     },
     // Remove the days without events
-    removeEmptyDay (day) {
-      let count = 0
-      this.events.map(event => {
-        if (day.toString().replace('T01', 'T00') === event.frontmatter.date.toString()) count++
-      })
-      if (count === 0) this.days.splice(-1, 1)
+    removeEmptyDay(day) {
+      let count = 0;
+      this.events.map((event) => {
+        if (
+          day.toString().replace("T01", "T00") ===
+          event.frontmatter.date.toString()
+        )
+          count++;
+      });
+      if (count === 0) this.days.splice(-1, 1);
     },
-    getAnimationDuration () {
-      let duration = parseFloat(
-        window.getComputedStyle(this.$refs.wrapper)['transitionDuration']
-      ) * 1000
-      return duration
+    getAnimationDuration() {
+      let duration =
+        parseFloat(
+          window.getComputedStyle(this.$refs.wrapper)["transitionDuration"]
+        ) * 1000;
+      return duration;
     },
-    animateContent () {
+    animateContent() {
       // The .wrapper el gets the class .filtering when this.filtering is true
-      this.filtering = true
+      this.filtering = true;
       // Give some extra ms for the filters to process
-      let delay = this.animationDuration + 150
-      setTimeout(() => { this.filtering = false }, delay)
-    }
+      let delay = this.animationDuration + 150;
+      setTimeout(() => {
+        this.filtering = false;
+      }, delay);
+    },
   },
-  mounted () {
-    this.animationDuration = this.getAnimationDuration()
-    this.filterEvents('All')
-  }
+  mounted() {
+    this.animationDuration = this.getAnimationDuration();
+    this.filterEvents("All");
+  },
+};
+
+function setEventDay(date) {
+  let day = new Date(date);
+  return day.getUTCDay();
 }
 
-function setEventDay (date) {
-  let day = new Date(date)
-  return day.getUTCDay()
-}
-
-function addDays (date, days) {
-  let nextDay = new Date(date)
-  nextDay = nextDay.setDate(date.getUTCDate() + days)
-  return new Date(nextDay)
+function addDays(date, days) {
+  let nextDay = new Date(date);
+  nextDay = nextDay.setDate(date.getUTCDate() + days);
+  return new Date(nextDay);
 }
 </script>
 

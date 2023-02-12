@@ -1,41 +1,74 @@
 <template>
-  <div class="venues">
+  <div v-if="config.layout === 1" class="venues">
     <div class="venues_info">
       <div class="venues_info_tag">
         Venues
       </div>
-      <h2 class="venues_info_title">
-        Paralelni Polis
-      </h2>
-      <div class="venues_info_description">
-        The unique crypto-only hacker base which is facilitating a discussion platform for topics related to tech, art and science.
+
+      <div v-for="venue in config.venues">
+        <h2 v-if="venueNum === config.venues.indexOf(venue)" class="venues_info_title">
+          {{venue.name}}        
+        </h2>
       </div>
 
-      <!-- <div class="venues_info_buttons">
-        <button class="primary-btn">
+      <div v-for="venue in config.venues">
+        <div v-if="venueNum === config.venues.indexOf(venue)" class="venues_info_description">
+          {{ venue.desc }}
+        </div>
+      </div>
+
+      <div class="venues_info_buttons">
+        <button class="primary-btn" @click="previousVenue()">
           <img src='./../../public/arrow.svg' alt="instagram" class="venues_info_button_arrow_prev"/>
           prev
         </button>
 
-        <button class="primary-btn">
+        <button class="primary-btn" @click="nextVenue()" >
           next
           <img src='./../../public/arrow.svg' alt="instagram" class="venues_info_button_arrow_next"/>
         </button>
-      </div> -->
+      </div>
+
     </div>
 
     <div class="venues_image-container">
-      <img class="venues_image" src="./../../public/paralelni_polis.png" alt="prague congress center" />
+      <div v-for="venue in config.venues">
+          <img v-if="venueNum === config.venues.indexOf(venue)" class="venues_image" :src="venue.path" alt="" />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Button from '../Button.vue'
+import Button from "../Button.vue";
+import config from "../../config";
 
 export default {
   components: { Button },
-}
+  data() {
+    return {
+      venueNum: 0,
+      numOfVenues: config.venues.length,
+      config: config,
+    };
+  },
+  methods: {
+    nextVenue() {
+      if (this.venueNum === this.numOfVenues - 1) {
+        this.venueNum = 0;
+      } else {
+        this.venueNum += 1;
+      }
+    },
+    previousVenue() {
+      if (this.venueNum === 0) {
+        this.venueNum = this.numOfVenues - 1;
+      } else {
+        this.venueNum -= 1;
+      }
+    },
+  },
+};
 </script>
 
 <style lang="stylus">
@@ -61,22 +94,26 @@ export default {
 
   &_info_tag
     padding 5px 20px
-    background #FF990059
-    color #FF9900
+    background $accentColor
+    color $primaryAccentColor
     width fit-content
     border-radius 2px
+    margin-bottom 20px
 
   &_info_title
     font-size 30px
     font-weight bold
     margin-bottom 5px
     border-bottom none
+    margin-top 12px
 
   &_info_description
     font-size 16px
     line-height 20px
     margin-bottom 33px
     max-width 415px
+    max-height 100px
+    height 80px
   
   &_info_button_arrow_prev
     margin-bottom: -1px
@@ -102,16 +139,16 @@ export default {
 
 .primary-btn
   all unset
-  background rgba(0, 255, 224, 0.35)
+  background rgba($primaryAccentColor, 0.35)
   padding 5px 15px
   cursor pointer
   line-heigh 14px
-  color #69E2D5
+  color $accentColor
   font-famil 'Oxygen Mono', monospace
   font-size 14px
   border-radius 2px
   &:hover
-    background rgba(0, 255, 224, 0.6)
+    background rgba($primaryAccentColor, 0.6)
 
 @media(min-width: 1200px)
   .venues
