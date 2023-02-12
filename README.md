@@ -17,9 +17,6 @@ features:
   details: The unique crypto-only hacker base which is facilitating a 
     discussion platform for topics related to tech, art and science.
 
-- title: Gabriel Loci
-  details: Funky place in Smichov
-
   
 footer:
 #  -
